@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Minha Saúde
 
-`CURSO`
+`Análise e desenvolvimento de sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de uma aplicação Interativa`
 
-`SEMESTRE`
+`2º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A gestão de medicamentos parece algo trivial, pois demanda organização pessoal para seguir tratamentos que podem resultar em casos de vida ou morte. Contudo, em muitos casos, a quantidade de medicamentos pode dificultar a vida de um paciente, além de se tornar difícil manter organizado o orçamento e quantidade de informações de cada medicamento. Por isso, é necessário pensar no problema da gestão de medicamentos para quem necessita de maior cuidado com o controle para o tratamento de suas doenças. Isso possibilitará auxílio tecnológico que poderá resultar em sucesso de tratamentos medicamentosos e possibilitar melhora na qualidade de vida do paciente. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+ADILSON ANTONIO FERREIRA JR
+JOÃO PEDRO MARQUES MOURÃO
+MATEUS VITORINO GUIMARAES
+RODRIGO LOBENWEIN RESENDE
+VERA LÚCIA GONÇALVES ALMEIDA
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Simone Alves Nogueira
 
 ## Instruções de utilização
 
