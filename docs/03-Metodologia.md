@@ -3,13 +3,31 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+O desenvolvimento deste trabalho ocorrerá com o auxílio de diversas ferramentas, que têm como objetivo principal a organização das tarefas e do fluxo do trabalho. A definição das ferramentas e o seu propósito são descritas a seguir.
+
+>* Repositório de código fonte: `GitHub`
+>* Documentos do projeto: `Google Drive`
+>* Interface e Wireframes: `Figma`
+>* Diagramas: `LucidChart`
+>* Gerenciamento do projeto: `GitHub`
+
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+A gestão do código fonte deste trabalho será feita segundo o modelo GitFlow, um modelo “robusto para gerenciar projetos mais complexos ou de grande porte” (Vietro, 2015). O funcionamento do GitFlow é semelhante a uma árvore, em que há um tronco e diversas ramificações, que são os galhos. O tronco, ou branch (do inglês, “galho”) principal, é chamado de Master, e contém o código oficial, histórico de entregas e também é usado para liberação para o cliente.
+
+Partindo do branch master, existem diversos outros tipos de branches:
+
+- `“Hotfix”` ou “maintenance branch: usado para correções rápidas de erros;
+- `Develop`: é o branch principal para o desenvolvimento, também utilizado para guardar o histórico do projeto. É neste branch que são integradas todas as novas funcionalidades (feature branches);
+- `Feature` branch: ao iniciar o desenvolvimento de uma nova funcionalidade, esta deve ter seu próprio branch que, posteriormente, serão integradas no branch develop;
+- `Release` branch: é a branch para entrega, desenvolvida quando as funcionalidades do ciclo estão prontas. Deve ser integrada com as branches Master e Develop;
+Uma representação deste modelo pode ser vista na figura 2.
+
+![Figura 2 – Fluxo de trabalho do modelo GitFlow (Vietro, 2015)](img/Gitflow.png)
+
+
+Para utilização deste modelo, o repositório será hospedado no GitHub, para que todos os desenvolvedores do trabalho tenham acesso. Para facilitar a criação das branches e a integração de todas, será utilizado o GitHub Desktop.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
@@ -26,52 +44,41 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
-### Divisão de Papéis
+O gerenciamento do projeto e a divisão das tarefas utilizará o Scrum, metodologia ágil largamente utilizada no desenvolvimento de aplicações por empresas como Google, Amazon e Salesforce.com (SUTHERLAND, JEFF; SUTHERLAND, 2019). 
 
-Apresente a divisão de papéis entre os membros do grupo.
+O Scrum, de forma resumida, é uma metodologia que tem como objetivo o gerenciamento de projetos, proporcionando sua execução de forma rápida. O projeto é dividido em tarefas e estas compõem o chamado “backlog”. A pessoa da equipe que gerencia o backlog é o Product Owner, responsável pela visão do todo do produto e quem define as prioridades de cada tarefa. A gestão do tempo é realizada através dos sprints, que devem ter duração de uma a duas semanas – para este trabalho, serão realizados sprints de 1 semana – acompanhados pelas “reuniões diárias em pé”, ou “Scrum diário”, em que são respondidas três perguntas por todos da equipe:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+> *	O que você fez ontem?
+>*	O que você vai fazer hoje?
+>*	Quais são os obstáculos?
 
-### Processo
+O Scrum Master é o responsável pelo bom andamento da metodologia, treinando e eliminando fatores que reduzem o ritmo da equipe.
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+O Scrum é adequado para o trabalho com o GitFlow, já que as feature branches podem ser as tarefas de cada sprint; as hotfixes são as novas tarefas prioritárias no backlog; e as release features seriam a entrega de cada sprint.
+Assim, a equipe será dividida da seguinte forma:
 
+* Scrum Master: Rodrigo Lobenwein
+* Product Owner: Adilson Antonio Ferreira Jr
+* Equipe de Desenvolvimento: 
+    - Adilson Antonio Ferreira Jr
+    - João Pedro Marques Mourão
+    - Mateus Vitorino Guimaraes
+    - Rodrigo Lobenwein Resende
+    - Vera Lúcia Gonçalves Almeida
+* Equipe de Design
+    - Adilson Antonio Ferreira Jr
+    - João Pedro Marques Mourão
+    - Mateus Vitorino Guimaraes
+    - Rodrigo Lobenwein Resende
+    - Vera Lúcia Gonçalves Almeida	
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: Visual Studio Code
+- Ferramentas de comunicação: WhatsApp, Teams
+- Ferramentas de desenho de tela: Figma
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+O VS Code foi escolhido por ser uma solução gratuita, leve e versátil, além de possuir integração com o GitHub e GitHub Desktop, o que facilita o controle de versões e a gestão das branches.
