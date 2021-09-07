@@ -1,46 +1,47 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com as novas tecnologias, as pessoas passaram a consumir mais medicamentos, trazendo bem-estar a elas. Idosos, por exemplo, são pessoas que consomem muitos medicamentos por terem uma saúde frágil. Mas também existem pessoas com doenças crônicas que, por muito tempo, ou talvez a vida toda, necessitam de medicamentos. No entanto, não menos importante, crianças, adolescentes e pessoas de todas as idades também consomem medicamentos em algum momento da vida.
+
+Existem tantas pessoas com problemas de saúde que, dependendo da situação, algumas necessitam de muita atenção, pois com tantos remédios precisam lembrar de vários horários no dia a dia. São tantos detalhes que qualquer pessoa corre o risco de esquecer algum deles. Para isso, seria bem-vinda uma ajuda tecnológica para trazer mais tranquilidade aos usuários (e seus responsáveis) de qualquer tipo de medicamentos de uso contínuo ou não.
+
+Medicamentos podem ser usados para trazer bem-estar, no entanto, se seu uso não for feito com os devidos cuidados, podem trazer problemas em vez de resolvê-los. Com isso, é necessário estar sempre com a atenção voltada para os seguintes detalhes:
+* validade;
+* modo de uso;
+* dosagem;
+* medicamento em sua embalagem original;
+* estoque;
+* onde comprar;
+* preço.
+
+E é com foco neste problema que a equipe pretende trabalhar num projeto para juntar todos os detalhes citados num só aplicativo e trabalhará para que o resultado seja um projeto de qualidade, de fácil manuseio, com acessibilidade e responsividade, pensando neste bem tão precioso que é a saúde humana.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+As pessoas passam por diversos tratamentos de saúde ao longo da vida, e seguir um tratamento médico corretamente pode ser desafiador. Especialmente quando o tratamento inclui o uso de medicamentos em posologia complexa, isto é, com muitos medicamentos diferentes em diversos horários durante o dia. O desafio é ainda maior quando o paciente necessita dos cuidados de outra pessoa, como pode acontecer com idosos e crianças.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Estudos mostram que o horário da ingestão do medicamento pode aumentar sua eficácia ou causar efeitos colaterais graves (SANTOS, 2011). Portanto, é muito importante seguir corretamente a posologia determinada pelo médico.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Quando o tratamento é prolongado ou contínuo, adiciona-se ao desafio o controle do estoque dos medicamentos. No momento de se renovar os estoques, é necessário saber se a receita ainda é válida e se todos os medicamentos necessários são encontrados na farmácia mais próxima.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Além das dificuldades na gestão do tratamento, o seu custo pode também ser um problema: em algumas cidades brasileiras, a variação de preços de medicamentos entre farmácias pode chegar a até 2258%, segundo o PROCON (2019) de Campinas. Esta situação é ainda mais grave quando o custo do tratamento tem impacto significativo no orçamento do paciente, como em famílias de baixa renda.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto é a criação de uma solução para auxiliar pessoas a gerirem os seus tratamentos e medicamentos, desde a sua compra até o seu descarte. Para solucionar este problema propõe-se: a gestão de vencimentos e informações da bula do medicamento, a gestão da receita médica por parte do usuário, o controle correto da posologia e horário de  medicação dos pacientes e por último, a possibilidade de comparação de preços.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Quanto aos objetivos específicos deste trabalho, iremos destacar duas frentes, sendo a primeira:
+* Dispor de uma plataforma web acessível para todos os pacientes que necessitam de tratamento;
+* Possibilitar integração com as informações de receitas médicas e consulta de bulas.
+* Sistema de alarme para horário correto de medicamentação.
+A segunda frente possibilitará:
+* Geração de relatórios sobre os tratamentos do paciente, contendo horários e remédios ingeridos.
+* Acesso aos preços das farmácias da região.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A gestão de medicamentos parece algo trivial, pois demanda organização pessoal para seguir tratamentos que podem resultar em casos de vida ou morte. Contudo, em muitos casos, a quantidade de medicamentos pode dificultar a vida de um paciente, além de se tornar difícil manter organizado o orçamento e quantidade de informações de cada medicamento. Por isso, é necessário pensar no problema da gestão de medicamentos para quem necessita de maior cuidado com o controle para o tratamento de suas doenças. Isso possibilitará auxílio tecnológico que poderá resultar em sucesso de tratamentos medicamentosos e possibilitar melhora na qualidade de vida do paciente. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Esta aplicação apresenta dois tipos de público-alvo, sendo eles, clientes de farmácias/drogarias e funcionários dessas empresas.
+Dessa maneira, a plataforma poderá ser utilizada para auxiliar tanto quem precisa comprar medicamento(s) quanto os colaboradores das farmácias/drogarias que poderão ter acesso a prescrição médica.
