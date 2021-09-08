@@ -3,49 +3,19 @@
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 ## Personas
 
-| `Fernando Oliveira` |	Administrador |
-
-![Fernando Oliveira](img/Persona1.png) 
-
-Fernando é administrador de empresas e tem o cargo de Gerente Comercial em uma multinacional do ramo de alimentos. Está constantemente em viagens de negócios, em reuniões com clientes ou com as equipes de vendas.
-Fernando foi diagnosticado com hipertensão e precisa tomar um medicamento diariamente, na parte da manhã. Devido ao seu horário irregular de trabalho, frequentemente se esquece de tomar o medicamento. Com as frequentes viagens, também se esquece de levar o remédio e, não raro, tem dificuldade de encontrar uma farmácia próxima quando está em uma região que não conhece.
-
-| `Maria Antônia Souza` |	Aposentada |
-
-![Maria Antônia Souza](img/Persona2.png)
-
-Maria Antônia trabalhou de costureira durante muitos anos. Hoje tem 84 anos e é aposentada.
-Depois de muitos anos de trabalho, Maria Antônia foi diagnosticada com glaucoma, ceratocone, hipertensão e hipertireoidismo.
-Devido à idade avançada, esquece com facilidade seus horários e se já tomou os remédios, correndo grande risco de ingerir duas vezes o mesmo medicamento no mesmo horário. Com isso, precisa sempre da vigilância dos filhos para ajudá-la nesta tarefa árdua, inclusive na vigilância do estoque, na pesquisa de preços e na compra destes medicamentos.
-
-
-| `Gustavo Henrique` |	Balconista de farmácia |
-
-![Gustavo Henrique](img/Persona3.jpg)
-
-Gustavo é um balconista da Farmácia Mais Saúde. Todos os dias ele atende a diversas pessoas que procuram o estabelecimento para comprar os mais variados medicamentos. Ele acaba tendo algumas dificuldades com prescrições médicas ilegíveis ou de difícil compreensão.
-
-| `João e Maria` |	Pais de família - Porteiro e Operadora de caixa |
-
-![João e Maria](img/Persona4.jpg)
-
-Pais de família, com idade entre 30 e 35 anos.  A típica família brasileira, possui um alto custo de vida e despesas pesadas como alimentação, escola, transporte, financiamento, e ao final do mês pouco dinheiro é guardado para o lazer. João trabalha o dia inteiro como porteiro de um prédio, e Maria trabalha na padaria como operadora de caixa. As crianças ficam em uma creche escolar, e o período das escolas onde as crianças entram em contato com vários germes, demanda dos pais, uma constante despesa, quase que mensal com remédios e medicamentos. Com o intuito de economizar dinheiro, os pais buscam farmácias com os melhores preços e a melhor qualidade.
-
-| `Enzo Pereira` | Jovem |
-
-![Enzo Pereira](img/Persona5.jpg)
-
-Enzo Pereira é um estudante de ensino médio dos turnos da manhã e da tarde. De noite ele faz seu dever de casa, estuda e/ou vai jogar futebol com os amigos.
-Tem interesse em jogos e esportes, gosta de cultura pop, em especial filmes de heróis. Se informa pelo Twitter e possui muitos amigos com quem compartilha o final de semana.
-Enzo possui amigdalite crônica e necessita de cuidados para que a inflamação não o afete de modo muito severo. Porém, frequentemente Enzo possui dores de garganta que se desenvolvem em amigdalite e tem que tomar antibióticos. Enzo planeja sua cirurgia de remoção de amígdalas para o próximo ano.
-
-
-| `Jéssica Andrade` |	Farmacêutica |
-
-![Jéssica Andrade](img/Persona6.jpg)
-
-Jéssica é a farmacêutica responsável técnica da Farmácia Mais Saúde.
-Durante seus atendimentos, ela se depara com algumas dificuldades para compreender várias prescrições médicas que surgem mal escritas e/ou inelegíveis. Sua produtividade acaba sendo um pouco afetada por ter que dedicar tempo na tentativa de entendimento dessas prescrições sendo tanto de seus clientes quanto de clientes dos atendentes da farmácia.
+| **Fernando Oliveira** |	**Administrador** |
+|:---------------------:|:---------------|
+|![Fernando Oliveira](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1/blob/main/docs/img/Persona1.png)|Fernando é administrador de empresas e tem o cargo de Gerente Comercial em uma multinacional do ramo de alimentos. Está constantemente em viagens de negócios, em reuniões com clientes ou com as equipes de vendas. Fernando foi diagnosticado com hipertensão e precisa tomar um medicamento diariamente, na parte da manhã. Devido ao seu horário irregular de trabalho, frequentemente se esquece de tomar o medicamento. Com as frequentes viagens, também se esquece de levar o remédio e, não raro, tem dificuldade de encontrar uma farmácia próxima quando está em uma região que não conhece.|
+| **Maria Antônia Souza** |	**Aposentada**|
+|![Maria Antônia Souza](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1/blob/main/docs/img/persona2.png)|Maria Antônia trabalhou de costureira durante muitos anos. Hoje tem 84 anos e é aposentada. Depois de muitos anos de trabalho, Maria Antônia foi diagnosticada com glaucoma, ceratocone, hipertensão e hipertireoidismo. Devido à idade avançada, esquece com facilidade seus horários e se já tomou os remédios, correndo grande risco de ingerir duas vezes o mesmo medicamento no mesmo horário. Com isso, precisa sempre da vigilância dos filhos para ajudá-la nesta tarefa árdua, inclusive na vigilância do estoque, na pesquisa de preços e na compra destes medicamentos.|
+| **Gustavo Henrique** |	**Balconista de farmácia** |
+|![Gustavo Henrique](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1/blob/main/docs/img/persona3.jpg)|Gustavo é um balconista da Farmácia Mais Saúde. Todos os dias ele atende a diversas pessoas que procuram o estabelecimento para comprar os mais variados medicamentos. Ele acaba tendo algumas dificuldades com prescrições médicas ilegíveis ou de difícil compreensão.|
+| **João e Maria** |	**Pais de família - Porteiro e Operadora de caixa** |
+|![João e Maria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1/blob/main/docs/img/persona4.jpg)|Pais de família, com idade entre 30 e 35 anos.  A típica família brasileira, possui um alto custo de vida e despesas pesadas como alimentação, escola, transporte, financiamento, e ao final do mês pouco dinheiro é guardado para o lazer. João trabalha o dia inteiro como porteiro de um prédio, e Maria trabalha na padaria como operadora de caixa. As crianças ficam em uma creche escolar, e o período das escolas onde as crianças entram em contato com vários germes, demanda dos pais, uma constante despesa, quase que mensal com remédios e medicamentos. Com o intuito de economizar dinheiro, os pais buscam farmácias com os melhores preços e a melhor qualidade.|
+| **Enzo Pereira** | **Jovem** |
+|![Enzo Pereira](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1/blob/main/docs/img/persona5.jpg)|Enzo Pereira é um estudante de ensino médio dos turnos da manhã e da tarde. De noite ele faz seu dever de casa, estuda e/ou vai jogar futebol com os amigos. Tem interesse em jogos e esportes, gosta de cultura pop, em especial filmes de heróis. Se informa pelo Twitter e possui muitos amigos com quem compartilha o final de semana. Enzo possui amigdalite crônica e necessita de cuidados para que a inflamação não o afete de modo muito severo. Porém, frequentemente Enzo possui dores de garganta que se desenvolvem em amigdalite e tem que tomar antibióticos. Enzo planeja sua cirurgia de remoção de amígdalas para o próximo ano.|
+| **Jéssica Andrade** |	**Farmacêutica** |
+|![Jéssica Andrade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1/blob/main/docs/img/persona6.jpg)|Jéssica é a farmacêutica responsável técnica da Farmácia Mais Saúde. Durante seus atendimentos, ela se depara com algumas dificuldades para compreender várias prescrições médicas que surgem mal escritas e/ou inelegíveis. Sua produtividade acaba sendo um pouco afetada por ter que dedicar tempo na tentativa de entendimento dessas prescrições sendo tanto de seus clientes quanto de clientes dos atendentes da farmácia.|
 
 
 ## Histórias de Usuários
