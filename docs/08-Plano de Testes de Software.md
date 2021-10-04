@@ -113,8 +113,8 @@ Plano de Testes de Software
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
   
 
-Caso de Teste
-CT-01 – Validar tela de login
+<h1>Caso de Teste<h1>
+<h2>CT-01 – Validar tela de login<h2>
 Requisitos Associados
 RF-14 - O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar novo usuário ou recuperar senha.
 Objetivo do Teste
@@ -134,8 +134,8 @@ Não deve ser permitido selecionar mais de um tipo de usuário; e
 Ao clicar em ‘login’ será direcionado para home.
 
 
-Caso de Teste
-CT-02 – Cadastro de novo usuário
+<h1>Caso de Teste<h1>
+<h2>CT-02 – Cadastro de novo usuário<h2>
 Requisitos Associados
 RF-04 - O sistema deve apresentar um formulário de cadastro para novos usuários contendo: Tipo de usuário (Paciente / Funcionário da farmácia), nome, CPF/CRF, endereço completo, data de nascimento, telefone, e-mail.
 Objetivo do Teste
