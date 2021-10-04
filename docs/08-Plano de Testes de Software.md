@@ -4,32 +4,32 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 ID
 Descrição
 Prioridade
-<hr>RF-01<hr>
+RF-01<hr>
     
 O sistema deve ter um cadastro de medicamentos, incluindo: nome, laboratório, dosagem, tipo (comprimido, gota, ampola, etc).
 Alta
-<hr>RF-02<hr>
+RF-02<hr>
 O sistema deve possuir um banco de dados de medicamentos para seleção do usuário no cadastro de tratamento
 Baixa
-<hr>RF-03<hr>
+RF-03<hr>
 O sistema deve permitir cadastro de tratamento, incluindo: nome do medicamento, dosagem, horários de ingestão e duração do tratamento.
 Alta
-<hr>RF-04<hr>
+RF-04<hr>
 O sistema deve apresentar um formulário de cadastro para novos usuários contendo: Tipo de usuário (Paciente / Funcionário da farmácia), nome, CPF/CRF, endereço completo, data de nascimento, telefone, e-mail.
 Alta
-RF-05
+RF-05<hr>
 O sistema deve permitir cadastro de Caixinha de medicamentos, com quantidade alterada quando usuário confirma a ingestão.
 Média
-RF-06
+RF-06<hr>
 O cadastro de Caixinha deve incluir data de validade e lote
 Baixa
-RF-07
+RF-07<hr>
 O sistema deve emitir alerta com notificação nos horários de ingestão cadastrados no tratamento
 Alta
-RF-08
+RF-08<hr>
 O sistema deve emitir alerta de quantidade baixa de medicamento, considerando a quantidade definida pelo usuário (“quando quantidade for menor que X comprimidos”)
 Média
-RF-09
+RF-09<hr>
 O sistema deve ter um sistema de localização de farmácias (pode ser pelo Google Maps), considerando a localização atual do usuário
 Baixa
 RF-10
