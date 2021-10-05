@@ -4,14 +4,14 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 ID
 Descrição
 Prioridade
-RF-01<br>
+<br>RF-01</br>
     
 O sistema deve ter um cadastro de medicamentos, incluindo: nome, laboratório, dosagem, tipo (comprimido, gota, ampola, etc).
 Alta
-RF-02<br>
+<br>RF-02</br>
 O sistema deve possuir um banco de dados de medicamentos para seleção do usuário no cadastro de tratamento
 Baixa
-RF-03<br>
+<br>RF-03</br>
 O sistema deve permitir cadastro de tratamento, incluindo: nome do medicamento, dosagem, horários de ingestão e duração do tratamento.
 Alta
 RF-04<br>
