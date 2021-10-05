@@ -5,7 +5,7 @@
 
 A interface do Minha Saúde foi pensada de forma a facilitar a usabilidade. Com foco na simplicidade, cada função deverá ficar evidenciada nas respectivas telas, e os caminhos para a execução de cada ação devem ser intuitivos. Na figura abaixo, uma imagem da tela principal.
 
-![Tela Principal](img/Tela_Principal.png)
+![Tela Principal](img/Tela_principal.png)
 
 Da figura pode-se também notar que o desenvolvimento da aplicação seguirá a o conceito *Mobile First*, que consiste no foco em estrutura mobile, isto é, cada tela é elaborada primeiramente para telas menores, de celular, e depois serão adaptadas para telas maiores.
 
