@@ -2,7 +2,7 @@
 <p>O processo de realização dos testes da solução desenvolvida está documentado na seção que se segue e traz os planos de testes de software e de usabilidade, na sequência, o registro dos testes realizados.</p>
  
 <h3>Plano de Testes de Usabilidade</h3>
-Avaliação do Percurso Cognitivo
+<h3>Avaliação do Percurso Cognitivo</h3>
 Para cada um dos casos de teste listados a seguir, o avaliador deve fazer as seguintes perguntas e justificar as respostas:
 O usuário tentaria alcançar o efeito desejado?
 O usuário vai notar que a ação correta está disponível?
@@ -10,17 +10,15 @@ O usuário conseguirá associar a ação correta com o efeito que está tentando
 O usuário perceberá que está progredindo em direção à conclusão da tarefa?
 
 Em caso de respostas negativas, o avaliador deve propor uma solução, da seguinte maneira:
-Pergunta
-Solução proposta
-1
-Eliminar a ação (se pertinente ou possível), fornecer uma instrução (propor a instrução) ou modificar a tarefa (propor a modificação)
-2
-Tornar a ação mais evidente (propor a modificação)
-3
-Renomear as ações e reescrever as instruções da interface (propor modificação)
+<table>
+<tr>Pergunta
+ <td> Solução proposta</td></tr>
+<tr>1 Eliminar a ação (se pertinente ou possível), fornecer uma instrução (propor a instrução) ou modificar a tarefa (propor a modificação)</tr>
+ <tr>2 Tornar a ação mais evidente (propor a modificação)</tr>
+<tr>3 Renomear as ações e reescrever as instruções da interface (propor modificação)
 4
 Destacar ou expressar mais claramente as respostas dos sistema (propor a modificação)
-
+</table>
 
 
 Caso de Teste
