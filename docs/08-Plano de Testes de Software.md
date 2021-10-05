@@ -1,9 +1,7 @@
 Requisitos Funcionais
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
-ID
-Descrição
-Prioridade
+<h2>ID Descrição Prioridade <h2>
 <br>RF-01</br>
 O sistema deve ter um cadastro de medicamentos, incluindo: nome, laboratório, dosagem, tipo (comprimido, gota, ampola, etc).
 Alta
@@ -64,7 +62,7 @@ Baixa
 
 
 
-Requisitos não funcionais
+<h2>Requisitos não funcionais<h2><hr>
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 ID
 Descrição
@@ -87,7 +85,7 @@ Alta
 
 
 
-Restrições 
+<h2>Restrições<h2> <hr> 
 As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 ID
