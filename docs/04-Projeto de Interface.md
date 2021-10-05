@@ -11,7 +11,7 @@ Da figura pode-se também notar que o desenvolvimento da aplicação seguirá a 
 
 O desenvolvimento da interface foi construído como protótipo de baixa fidelidade, determinando-se a estrutura de cada dela, logotipo e paleta de cores.
 
-O protótipo também foi elaborado com interatividade. Todas as telas e o fluxo entre elas pode ser visto no link <a href="https://www.figma.com/proto/zISLLKX16ilEhbkGP7Wgka/Minha-Sa%C3%BAde?node-id=55%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=55%3A2&show-proto-sidebar=1">Protótipo</a>
+O protótipo também foi elaborado com interatividade. Todas as telas e o fluxo entre elas pode ser visto no link <a href="https://www.figma.com/community/file/1027017375439179508/Minha-Sa%C3%BAde">Protótipo</a>
 
 
 
