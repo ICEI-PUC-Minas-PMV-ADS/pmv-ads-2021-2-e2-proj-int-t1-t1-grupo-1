@@ -57,7 +57,7 @@ Em caso de respostas negativas, o avaliador deve propor uma solução, da seguin
  <tr><th>Objetivo do Teste</th>
  <th>Avaliar a tela de cadastro de nova senha</th></tr>
  <tr><th>Passos</th>
-<th>Acessar o Navegador;
+  <th><br>Acessar o Navegador;</br>
 Informar o endereço do Site;
 Visualizar a página de login;
 Clicar na opção “Esqueci minha senha”
