@@ -37,26 +37,27 @@ Em caso de respostas negativas, o avaliador deve propor uma solução, da seguin
 
 <table>
  <tr><th>Caso de Teste</th>
-<th>CTU-02 – Cadastro de novo usuário</th></tr>
+ <th>CTU-02 – Cadastro de novo usuário</th></tr>
  <tr><th>Perfil</th>
-  <th>Paciente</th></tr>
-<tr><th>Objetivo do Teste</th>
+ <th>Paciente</th></tr>
+ <tr><th>Objetivo do Teste</th>
  <th>Avaliar a tela de cadastro de novo usuário</th></tr>
  <tr><th>Ações necessárias</th>
-Acessar a primeira tela do site pelo browser, conforme CTU-01;
-Clicar na opção “Cadastro”;
-Preencher os campos necessários do formulário;
-Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Crie sua senha”.</th></tr>
+ <th>Acessar a primeira tela do site pelo browser, conforme CTU-01;
+ Clicar na opção “Cadastro”;
+ Preencher os campos necessários do formulário;
+ Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Crie sua senha”.</th></tr>
 </table>
 
-Caso de Teste
-CTU-03 – Cadastro de Nova Senha
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar a tela de cadastro de nova senha
-Passos
-Acessar o Navegador;
+<table>
+ <tr><th>Caso de Teste</th>
+<th>CTU-03 – Cadastro de Nova Senha</th></tr>
+<tr><th>Perfil</th>
+ <th>Paciente</th></tr>
+ <tr><th>Objetivo do Teste</th>
+ <th>Avaliar a tela de cadastro de nova senha</th></tr>
+ <tr><th>Passos</th>
+<th>Acessar o Navegador;
 Informar o endereço do Site;
 Visualizar a página de login;
 Clicar na opção “Esqueci minha senha”
@@ -65,8 +66,8 @@ Clicar no botão “próximo”
 Na tela de “Código”, preencher no espaço indicado com o código recebido no e-mail de reset da senha;
 Clicar em “Próximo”;
 Inserir nova senha nos campos “senha” e “confirmação de senha”.
-Clicar no botão ‘Concluir’ que levará para a próxima tela; 
-
+Clicar no botão ‘Concluir’ que levará para a próxima tela; </th></tr>
+</table>
 
 Caso de Teste
 CTU-04 – Tela Perfil
