@@ -108,8 +108,8 @@ Verificar a página principal do perfil</th></tr>
 <tr><th>Perfil</th>
 <th>Farmacêutico</th></tr>
 <tr>Objetivo do Teste</th>
-<th>Avaliar a tela de perfil do farmacêutico
-Passos
+<th>Avaliar a tela de perfil do farmacêutico</th></tr>
+<tr><th>Passos</th>
 <th>Acessar o Navegador
 Informar o endereço do Site
 Visualizar a página principal
@@ -120,14 +120,14 @@ Verificar a página principal do perfil</th></tr>
 
 
 <table>
-Caso de Teste
-CTU-07 – Cadastro Tratamento
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar o cadastro de tratamento
-Passos
-Acessar o Navegador;
+<tr><th>Caso de Teste</th>
+<th>CTU-07 – Cadastro Tratamento</th></tr>
+<tr><th>Perfil</th>
+<th>Paciente</th></tr>
+<tr>Objetivo do Teste</th>
+<th>Avaliar o cadastro de tratamento</th></tr>
+<tr><th>Passos</th>
+<th>Acessar o Navegador;
 Informar o endereço do Site;
 Realizar o login;
 Na tela Perfil, clicar no botão “Tratamentos”;
@@ -137,7 +137,7 @@ Selecionar o ‘Nome do Medicamento’
 Preencher os campos ‘Data Início’, ‘Duração’, ‘Frequência de Uso’ e ‘Anotações’;
 Inserir a bula (Formato PDF, JPG, PNG ou BMP)
  Campo ‘Anotações’ não precisará ser obrigatório; e
- Clicar no botão ‘Enviar’ para salvar o cadastro.
+ Clicar no botão ‘Enviar’ para salvar o cadastro.</th></tr>
  </table>
 
 <table>
