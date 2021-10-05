@@ -13,8 +13,6 @@ O desenvolvimento da interface foi construído como protótipo de baixa fidelida
 
 O protótipo também foi elaborado com interatividade. Todas as telas e o fluxo entre elas pode ser visto no link <a href="https://www.figma.com/community/file/1027017375439179508/Minha-Sa%C3%BAde">Protótipo</a>
 
-
-
 ## Diagrama de Fluxo
 
 O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida. O Diagrama de Fluxo de Dados pode ser visto na figura a seguir.
