@@ -164,7 +164,7 @@ Clicar no botão ‘Cadastrar’.</th></tr>
 <tr><th>Caso de Teste</th>
 <th>CTU-09 - Atualização da “Caixinha de Remédios”</th></tr>
 <tr><th>Perfil</th>
-<tr><th>Paciente</th></tr>
+<th>Paciente</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a usabilidade da Caixinha de remédios</th></tr>
 <tr><th>Passos</th>
