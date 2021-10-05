@@ -51,20 +51,26 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 | ID  |     Descrição do Requisito        |  Prioridade  |
 |-----|-----------------------------------|  ----------  |
-|RF-01|O sistema deve ter um cadastro de medicamentos, incluindo: nome, laboratório, dosagem, tipo (comprimido, gota, ampola, etc).|Alta
-|RF-02|O sistema deve possuir um banco de dados de medicamentos para seleção do usuário no cadastro de tratamento|Baixa
-|RF-03|O sistema deve permitir cadastro de tratamento, incluindo: nome do medicamento, dosagem, horários de ingestão e duração do tratamento.|Alta
-|RF-04|O sistema deve permitir cadastro de usuário, contendo informações como: Nome, Idade, Peso, altura, telefone, cidade e bairro.|Média
-|RF-05|O sistema deve permitir cadastro de estoque de medicamentos, com quantidade alterada quando usuário confirma a ingestão. |Média
-|RF-06|O cadastro de estoque deve incluir data de validade e lote|Baixa
-|RF-07|O sistema deve emitir alerta com notificação nos horários de ingestão cadastrados na posologia|Alta
-|RF-08|O sistema deve emitir alerta de estoque baixo, considerando a quantidade definida pelo usuário (“quando estoque for menor que X comprimidos”)|Média
-|RF-08|O sistema deve monitorar a localização do usuário e emitir alerta quando este se deslocar da sua residência (cadastrada no perfil) para que leve os remédios do tratamento cadastrado|Baixa
-|RF-09|O sistema deve ter um sistema de localização de farmácias (pode ser pelo Google Maps), considerando a localização atual do usuário|Baixa
-|RF-10|O sistema deve permitir a comparação de preços de um medicamento selecionado entre diversas farmácias|Baixa
-|RF-11|O sistema deverá permitir ler de uma forma simples informações mais importantes da bula daquele medicamento|Baixa
-|RF-12|O sistema deve permitir receber e encaminhar prescrição eletrônica|Média
-|RF-13|O sistema deve permitir o registro da qualidade do atendimento das farmácias para futura comparação|Baixa
+|RF-01|O sistema deve ter um cadastro de medicamentos, incluindo: nome, laboratório, dosagem, tipo (comprimido, gota, ampola, etc).|Alta|
+|RF-02|O sistema deve possuir um banco de dados de medicamentos para seleção do usuário no cadastro de tratamento|Baixa|
+|RF-03|O sistema deve permitir cadastro de tratamento, incluindo: nome do medicamento, dosagem, horários de ingestão e duração do tratamento.|Alta|
+|RF-04|O sistema deve apresentar um formulário de cadastro para novos usuários contendo: Tipo de usuário (Paciente / Funcionário da farmácia), nome, CPF/CRF, endereço completo, data de nascimento, telefone, e-mail.|Alta|
+|RF-05|O sistema deve permitir cadastro de Caixinha de medicamentos, com quantidade alterada quando usuário confirma a ingestão.|Média|
+|RF-06|O cadastro de Caixinha deve incluir data de validade e lote|Baixa|
+|RF-07|O sistema deve emitir alerta com notificação nos horários de ingestão cadastrados no tratamento|Alta|
+|RF-08|O sistema deve emitir alerta de quantidade baixa de medicamento, considerando a quantidade definida pelo usuário (“quando quantidade for menor que X comprimidos”)|Média|
+|RF-09|O sistema deve ter um sistema de localização de farmácias (pode ser pelo Google Maps), considerando a localização atual do usuário|Baixa|
+|RF-10|O sistema deve permitir a comparação de preços de um medicamento selecionado entre diversas farmácias|Baixa|
+|RF-11|O sistema deve permitir a inserção e a leitura de bulas de medicamentos|Baixa|
+|RF-12|O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar)|Baixa|
+|RF-13|O sistema deve permitir o registro da qualidade do atendimento das farmácias para futura comparação (Avaliação)|Média|
+|RF-14|O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar ou recuperar senha.|Baixa|
+|RF-15|O sistema deve conter um formulário que permita ao usuário cadastrar uma nova senha em caso de esquecimento.|Alta|
+|RF-16|O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado.|Alta|
+|RF-17|A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Alarme, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento, Inserir bula (Considerando o tipo de cada perfil)|Alta|
+|RF-18|O sistema deve apresentar uma página para Visualizar Receita.|Média|
+|RF-19|O sistema deve monitorar a localização do usuário e emitir alerta quando este se deslocar da sua residência (cadastrada no perfil) para que leve os remédios do tratamento cadastrado|Baixa|
+
 
 
 ### Requisitos não Funcionais
