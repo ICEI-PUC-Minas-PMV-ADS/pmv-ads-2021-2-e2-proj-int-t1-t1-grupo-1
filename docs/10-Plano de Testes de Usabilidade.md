@@ -11,13 +11,11 @@ O usuário perceberá que está progredindo em direção à conclusão da tarefa
 
 Em caso de respostas negativas, o avaliador deve propor uma solução, da seguinte maneira:
 <table>
-<tr>Pergunta
- <td> Solução proposta</td></tr>
+<tr>Pergunta <th> Solução proposta</th></tr>
 <tr>1 Eliminar a ação (se pertinente ou possível), fornecer uma instrução (propor a instrução) ou modificar a tarefa (propor a modificação)</tr>
- <tr>2 Tornar a ação mais evidente (propor a modificação)</tr>
-<tr>3 Renomear as ações e reescrever as instruções da interface (propor modificação)
-4
-Destacar ou expressar mais claramente as respostas dos sistema (propor a modificação)
+<tr>2 Tornar a ação mais evidente (propor a modificação)</tr>
+<tr>3 Renomear as ações e reescrever as instruções da interface (propor modificação)</tr>
+<tr>4 Destacar ou expressar mais claramente as respostas dos sistema (propor a modificação)</tr>
 </table>
 
 
