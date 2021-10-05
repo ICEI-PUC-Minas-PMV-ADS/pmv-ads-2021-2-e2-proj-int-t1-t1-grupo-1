@@ -57,7 +57,7 @@ Em caso de respostas negativas, o avaliador deve propor uma solução, da seguin
  <tr><th>Objetivo do Teste</th>
  <th>Avaliar a tela de cadastro de nova senha</th></tr>
  <tr><th>Passos</th>
-<th>Acessar o Navegador;
+  <th><br>Acessar o Navegador;</br>
 Informar o endereço do Site;
 Visualizar a página de login;
 Clicar na opção “Esqueci minha senha”
@@ -69,20 +69,21 @@ Inserir nova senha nos campos “senha” e “confirmação de senha”.
 Clicar no botão ‘Concluir’ que levará para a próxima tela; </th></tr>
 </table>
 
-Caso de Teste
-CTU-04 – Tela Perfil
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar a tela de perfil do paciente
-Passos
-Acessar o Navegador
+<table>
+ <tr><th>Caso de Teste</th>
+<th>CTU-04 – Tela Perfil</th></tr>
+<tr><th>Perfil</th>
+<th>Paciente</th></tr>
+<tr>Objetivo do Teste</th>
+<th>Avaliar a tela de perfil do paciente</th></tr>
+ <tr><th>Passos</th>
+<th>Acessar o Navegador
 Informar o endereço do Site
 Visualizar a página principal
 Clicar em Login
 Preencher o CPF e a senha
-Verificar a página principal do perfil
-
+Verificar a página principal do perfil</th></tr>
+</table>
 
 
 Caso de Teste
