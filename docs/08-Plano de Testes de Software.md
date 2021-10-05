@@ -45,8 +45,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |**Perfil**|Atendente|
 |**Objetivo do Teste**|Verificar se após o login é exibido a tela principal do perfil.|
 |**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página principal; Clicar em Login; Preencher o CPF e a senha; Verificar a página principal do perfil.|
-|**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades: Botão “Cadastrar Tratamento”; Botão “Medicamentos”; Botão “Receitas”; Botão “Importar/Exportar arquivo”; Média das avaliações dos pacientes
-Novidades sobre a aplicação.|
+|**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades: Botão “Cadastrar Tratamento”; Botão “Medicamentos”; Botão “Receitas”; Botão “Importar/Exportar arquivo”; Média das avaliações dos pacientes; Novidades sobre a aplicação.|
 
 
 
@@ -91,8 +90,8 @@ Novidades sobre a aplicação.|
 
 |**Caso de Teste**|**CT-10 – Importar e exportar prescrição**|
 |-----------------|---------------------------------|
-|**Perfil**|Paciente|
 |**Requisitos Associados**|RF-12 – O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar)|
+|**Perfil**|Paciente|
 |**Objetivo do Teste**|Verificar o cadastro, envio e recebimento de prescrição.|
 |**Passos**|Acessar o navegador; Informar o endereço do Site; Realizar o login; Clicar no botão “Importar/Exportar arquivo”; Selecionar o arquivo da prescrição; Clicar em ENVIAR.|
 |**Critérios de Êxito**|Cadastrar data de validade e lote e consultá-lo posteriormente pelo menu de buscas de produtos.|
