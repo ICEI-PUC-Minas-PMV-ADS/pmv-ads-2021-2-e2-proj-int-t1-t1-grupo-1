@@ -1,7 +1,8 @@
-3.   Avaliação da Solução
-O processo de realização dos testes da solução desenvolvida está documentado na seção que se segue e traz os planos de testes de software e de usabilidade, na sequência, o registro dos testes realizados.
-Plano de Testes de Usabilidade
-Avaliação do Percurso Cognitivo
+<h3>3.   Avaliação da Solução</h3>
+<p>O processo de realização dos testes da solução desenvolvida está documentado na seção que se segue e traz os planos de testes de software e de usabilidade, na sequência, o registro dos testes realizados.</p>
+ 
+<h3>Plano de Testes de Usabilidade</h3>
+<h3>Avaliação do Percurso Cognitivo</h3>
 Para cada um dos casos de teste listados a seguir, o avaliador deve fazer as seguintes perguntas e justificar as respostas:
 O usuário tentaria alcançar o efeito desejado?
 O usuário vai notar que a ação correta está disponível?
@@ -9,34 +10,30 @@ O usuário conseguirá associar a ação correta com o efeito que está tentando
 O usuário perceberá que está progredindo em direção à conclusão da tarefa?
 
 Em caso de respostas negativas, o avaliador deve propor uma solução, da seguinte maneira:
-Pergunta
-Solução proposta
-1
-Eliminar a ação (se pertinente ou possível), fornecer uma instrução (propor a instrução) ou modificar a tarefa (propor a modificação)
-2
-Tornar a ação mais evidente (propor a modificação)
-3
-Renomear as ações e reescrever as instruções da interface (propor modificação)
-4
-Destacar ou expressar mais claramente as respostas dos sistema (propor a modificação)
+<table>
+ <tr><th>Pergunta</th>  <th>Solução proposta</th></tr>
+ <tr><th>1</th> <th>Eliminar a ação (se pertinente ou possível), fornecer uma instrução (propor a instrução) ou modificar a tarefa (propor a modificação)</th></tr>
+<tr><th>2</th> <th> Tornar a ação mais evidente (propor a modificação)</th></tr>
+<tr><th>3</th> <th> Renomear as ações e reescrever as instruções da interface (propor modificação)</th></tr>
+<tr><th>4</th> <th> Destacar ou expressar mais claramente as respostas dos sistema (propor a modificação)</th></tr>
+</table>
 
-
-
-Caso de Teste
-CTU-01 – Login de usuário
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar a usabilidade da tela de Login
-Ações necessárias
-Acessar o Navegador;
+<table>
+ <tr><th>Caso de Teste</th>
+  <th>CTU-01 – Login de usuário</th></tr>
+ <tr><th>Perfil</th>
+  <th>Paciente</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar a usabilidade da tela de Login</th></tr>
+ <tr><th>Ações necessárias</th>
+<th>Acessar o Navegador;
 Informar o endereço do Site;
 Visualizar a página de login;
 Preencher CPF/ CRF no campo indicado
 Preencher senha no campo indicado;
 Selecionar tipo de usuário (“paciente”/“funcionário da farmácia”)
-Clicar em ‘Login’.
-
+ Clicar em ‘Login’.</th></tr>
+</table>
 
 Caso de Teste
 CTU-02 – Cadastro de novo usuário
