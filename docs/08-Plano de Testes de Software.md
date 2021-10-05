@@ -5,7 +5,6 @@ ID
 Descrição
 Prioridade
 <br>RF-01</br>
-    
 O sistema deve ter um cadastro de medicamentos, incluindo: nome, laboratório, dosagem, tipo (comprimido, gota, ampola, etc).
 Alta
 <br>RF-02</br>
@@ -14,52 +13,52 @@ Baixa
 <br>RF-03</br>
 O sistema deve permitir cadastro de tratamento, incluindo: nome do medicamento, dosagem, horários de ingestão e duração do tratamento.
 Alta
-RF-04<br>
+<br>RF-04</br>
 O sistema deve apresentar um formulário de cadastro para novos usuários contendo: Tipo de usuário (Paciente / Funcionário da farmácia), nome, CPF/CRF, endereço completo, data de nascimento, telefone, e-mail.
 Alta
-RF-05<br>
+<br>RF-05</br>
 O sistema deve permitir cadastro de Caixinha de medicamentos, com quantidade alterada quando usuário confirma a ingestão.
 Média
-RF-06<br>
+<br>RF-06</br>
 O cadastro de Caixinha deve incluir data de validade e lote
 Baixa
-RF-07<br>
+<br>RF-07</br>
 O sistema deve emitir alerta com notificação nos horários de ingestão cadastrados no tratamento
 Alta
-RF-08<br>
+<br>RF-08</br>
 O sistema deve emitir alerta de quantidade baixa de medicamento, considerando a quantidade definida pelo usuário (“quando quantidade for menor que X comprimidos”)
 Média
-RF-09<br>
+<br>RF-09</br>
 O sistema deve ter um sistema de localização de farmácias (pode ser pelo Google Maps), considerando a localização atual do usuário
 Baixa
-RF-10
+<br>RF-10</br>
 O sistema deve permitir a comparação de preços de um medicamento selecionado entre diversas farmácias
 Baixa
-RF-11
+<br>RF-11</br>
 O sistema deve permitir a inserção e a leitura de bulas de medicamentos
 Baixa
-RF-12
+<br>RF-12</br>
 O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar)
 Baixa
-RF-13
+<br>RF-13</br>
 O sistema deve permitir o registro da qualidade do atendimento das farmácias para futura comparação (Avaliação)
 Média
-RF-14
+<br>RF-14</br>
 O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar ou recuperar senha.
 Baixa
-RF-15
+<br>RF-15</br>
 O sistema deve conter um formulário que permita ao usuário cadastrar uma nova senha em caso de esquecimento.
 Alta
-RF-16
+<br>RF-16</br>
 O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado.
 Alta
-RF-17
+<br>RF-17</br>
 A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Alarme, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento, Inserir bula (Considerando o tipo de cada perfil)
 Alta
-RF-18
+<br>RF-18</br>
 O sistema deve apresentar uma página para Visualizar Receita.
 Média
-RF-19
+<br>RF-19</br>
 O sistema deve monitorar a localização do usuário e emitir alerta quando este se deslocar da sua residência (cadastrada no perfil) para que leve os remédios do tratamento cadastrado
 Baixa
 
@@ -70,19 +69,19 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 ID
 Descrição
 Prioridade
-RNF-01
+<br>RNF-01</br>
 O sistema deve ter uma interface simples, clara e de fácil utilização;
 Alta
-RNF-02
+<br>RNF-02</br>
 O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge);
 Média
-RNF-03
+<br>RNF-03</br>
 Sistema acessível somente para pessoas cadastradas através de login e senha;
 Média
-RNF -04
+<br>RNF -04</br>
 Sistema deverá seguir princípios de acessibilidade para todas as pessoas;
 Média
-RNF-05
+<br>RNF-05</br>
 A aplicação deverá ser responsiva, permitindo a visualização em outros tipos de tela de forma adequada;
 Alta
 
@@ -93,11 +92,11 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ID
 Descrição
-RE-01
+<br>RE-01<br>
 O Projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 30 de novembro de 2021.
-RE-02
+<br>RE-02</br>
 O aplicativo deverá se restringir a programação de aplicação web, com integração de tecnologia de banco de dados e back-end.
-RE-03
+<br>RE-03</br>
 A equipe não poderá subcontratar o desenvolvimento do trabalho.
 
 
