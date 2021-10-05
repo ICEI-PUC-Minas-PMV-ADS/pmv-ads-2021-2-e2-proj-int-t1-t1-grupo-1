@@ -74,7 +74,7 @@ Clicar no botão ‘Concluir’ que levará para a próxima tela; </th></tr>
 <th>CTU-04 – Tela Perfil</th></tr>
 <tr><th>Perfil</th>
 <th>Paciente</th></tr>
-<tr>Objetivo do Teste</th>
+<tr><th>Objetivo do Teste</th>
 <th>Avaliar a tela de perfil do paciente</th></tr>
  <tr><th>Passos</th>
 <th>Acessar o Navegador
@@ -85,47 +85,49 @@ Preencher o CPF e a senha
 Verificar a página principal do perfil</th></tr>
 </table>
 
-
-Caso de Teste
-CTU-05 – Tela Perfil
-Perfil
-Atendente
-Objetivo do Teste
-Avaliar a tela de perfil do atendente
-Passos
-Acessar o Navegador
+<table>
+<tr><th>Caso de Teste</th>
+<th>CTU-05 – Tela Perfil</th></tr>
+<tr><th>Perfil</th>
+<th>Atendente</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar a tela de perfil do atendente</th></tr>
+<tr><th>Passos</th>
+<th>Acessar o Navegador
 Informar o endereço do Site
 Visualizar a página principal
 Clicar em Login
 Preencher o CPF e a senha
-Verificar a página principal do perfil
+Verificar a página principal do perfil</th></tr>
+ </table>
 
 
-
-Caso de Teste
-CTU-06 – Tela Perfil
-Perfil
-Farmacêutico
-Objetivo do Teste
-Avaliar a tela de perfil do farmacêutico
-Passos
-Acessar o Navegador
+<table>
+<tr><th>Caso de Teste</th>
+<th>CTU-06 – Tela Perfil</th></tr>
+<tr><th>Perfil</th>
+<th>Farmacêutico</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar a tela de perfil do farmacêutico</th></tr>
+<tr><th>Passos</th>
+<th>Acessar o Navegador
 Informar o endereço do Site
 Visualizar a página principal
 Clicar em Login
 Preencher o CRF e a senha
-Verificar a página principal do perfil
+Verificar a página principal do perfil</th></tr>
+ </table>
 
 
-
-Caso de Teste
-CTU-07 – Cadastro Tratamento
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar o cadastro de tratamento
-Passos
-Acessar o Navegador;
+<table>
+<tr><th>Caso de Teste</th>
+<th>CTU-07 – Cadastro Tratamento</th></tr>
+<tr><th>Perfil</th>
+<th>Paciente</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar o cadastro de tratamento</th></tr>
+<tr><th>Passos</th>
+<th>Acessar o Navegador;
 Informar o endereço do Site;
 Realizar o login;
 Na tela Perfil, clicar no botão “Tratamentos”;
@@ -135,10 +137,10 @@ Selecionar o ‘Nome do Medicamento’
 Preencher os campos ‘Data Início’, ‘Duração’, ‘Frequência de Uso’ e ‘Anotações’;
 Inserir a bula (Formato PDF, JPG, PNG ou BMP)
  Campo ‘Anotações’ não precisará ser obrigatório; e
- Clicar no botão ‘Enviar’ para salvar o cadastro.
+ Clicar no botão ‘Enviar’ para salvar o cadastro.</th></tr>
+ </table>
 
-
-
+<table>
 Caso de Teste
 CTU-08 – Cadastro Medicamento
 Perfil
@@ -155,8 +157,10 @@ Na tela de Cadastro de tratamento, clicar no botão “cadastro de medicamento�
 Preencher os campos de ‘Nome do Medicamento’, ‘Laboratório’, ‘Tipo’, ‘Dosagem’, ‘Princípio Ativo’;
 Inserir a bula (Formato PDF, JPG, PNG ou BMP)
 Clicar no botão ‘Cadastrar’.
+ </table>
 
 
+<table>
 Caso de Teste
 CTU-09 - Atualização da “Caixinha de Remédios”
 Perfil
@@ -171,9 +175,10 @@ Acessar a seção Caixinha de Remédios
 Selecionar o Medicamento desejado e clicar em “Alterar quantidade”
 Nos campos QUANTIDADE, DATA DE VALIDADE E LOTE DO MEDICAMENTO inserir dados válidos
 Clicar em salvar
+ </table>
 
 
-
+<table>
 Caso de Teste
 CTU-10 – Importar e exportar prescrição
 Perfil
@@ -187,8 +192,10 @@ Realizar o login;
 Clicar no botão “Importar/Exportar arquivo”
 Selecionar o arquivo da prescrição
 Clicar em ENVIAR
+ </table>
 
 
+<table>
 Caso de Teste
 CTU-11–Pesquisa de preços
 Perfil
@@ -207,8 +214,10 @@ Passos
 9) O ícone da farmácia deve ser um link de redirecionamento para a mesma, possibilitando ao paciente comprar o medicamento on-line, e, caso deseje, fornecer o endereço físico para compra presencial.
 10) O sistema deve apresentar uma opção de avaliação do atendimento após a compra realizada com notas de 0 (para muito ruim) a 5 (para muito bom).
 
+ </table>
 
 
+<table>
 Caso de Teste
 CTU-10 - Notificações
 Perfil
@@ -230,6 +239,6 @@ Passos
 12) Selecionar a opção “Notificação de afastamento de casa”
 13) Deve apresentar uma tela para ativar localização e distância que o alarme deve disparar
 14) Clicar em salvar
-
+ </table>
 
 

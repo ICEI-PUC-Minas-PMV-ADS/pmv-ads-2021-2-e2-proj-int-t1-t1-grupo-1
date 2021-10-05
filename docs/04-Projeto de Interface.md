@@ -5,13 +5,13 @@
 
 A interface do Minha Saúde foi pensada de forma a facilitar a usabilidade. Com foco na simplicidade, cada função deverá ficar evidenciada nas respectivas telas, e os caminhos para a execução de cada ação devem ser intuitivos. Na figura abaixo, uma imagem da tela principal.
 
-![Tela Principal](img/Tela_Principal.png)
+![Tela Principal](img/Tela_principal.png)
 
 Da figura pode-se também notar que o desenvolvimento da aplicação seguirá a o conceito *Mobile First*, que consiste no foco em estrutura mobile, isto é, cada tela é elaborada primeiramente para telas menores, de celular, e depois serão adaptadas para telas maiores.
 
 O desenvolvimento da interface foi construído como protótipo de baixa fidelidade, determinando-se a estrutura de cada dela, logotipo e paleta de cores.
 
-O protótipo também foi elaborado com interatividade. Todas as telas e o fluxo entre elas pode ser visto no link <a href="https://www.figma.com/community/file/1027017375439179508/Minha-Sa%C3%BAde">Protótipo</a>
+O protótipo também foi elaborado com interatividade. Todas as telas e o fluxo entre elas pode ser visto no link <a href="https://www.figma.com/community/file/1027017375439179508/Minha-Sa%C3%BAde" target="_blank">Protótipo</a>
 
 ## Diagrama de Fluxo
 
