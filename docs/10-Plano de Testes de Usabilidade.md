@@ -141,14 +141,14 @@ Inserir a bula (Formato PDF, JPG, PNG ou BMP)
  </table>
 
 <table>
-Caso de Teste
-CTU-08 – Cadastro Medicamento
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar o cadastro de Medicamentos
-Passos
-Acessar o Navegador;
+<tr><th>Caso de Teste</th>
+<th>CTU-08 – Cadastro Medicamento</th></tr>
+<tr><th>Perfil</th>
+<th>Paciente</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar o cadastro de Medicamentos</th></tr>
+<tr><th>Passos</th>
+<th>Acessar o Navegador;
 Informar o endereço do Site;
 Realizar o login;
 Na tela Perfil, clicar no botão “Tratamentos”;
@@ -156,54 +156,54 @@ Na tela tratamentos, clicar no botão “Novo Tratamento”
 Na tela de Cadastro de tratamento, clicar no botão “cadastro de medicamento”.
 Preencher os campos de ‘Nome do Medicamento’, ‘Laboratório’, ‘Tipo’, ‘Dosagem’, ‘Princípio Ativo’;
 Inserir a bula (Formato PDF, JPG, PNG ou BMP)
-Clicar no botão ‘Cadastrar’.
+Clicar no botão ‘Cadastrar’.</th></tr>
  </table>
 
 
 <table>
-Caso de Teste
-CTU-09 - Atualização da “Caixinha de Remédios”
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar a usabilidade da Caixinha de remédios
-Passos
-Acessar o navegador
+<tr><th>Caso de Teste</th>
+<th>CTU-09 - Atualização da “Caixinha de Remédios”</th></tr>
+<tr><th>Perfil</th>
+<tr><th>Paciente</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar a usabilidade da Caixinha de remédios</th></tr>
+<tr><th>Passos</th>
+<th>Acessar o navegador
 Informar o endereço do Site;
 Realizar o login;
 Acessar a seção Caixinha de Remédios
 Selecionar o Medicamento desejado e clicar em “Alterar quantidade”
 Nos campos QUANTIDADE, DATA DE VALIDADE E LOTE DO MEDICAMENTO inserir dados válidos
-Clicar em salvar
+Clicar em salvar</th></tr>
  </table>
 
 
 <table>
-Caso de Teste
-CTU-10 – Importar e exportar prescrição
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar o cadastro, envio e recebimento de prescrição
- Passos
-Acessar o navegador
+<tr><th>Caso de Teste</th>
+<th>CTU-10 – Importar e exportar prescrição</th></tr>
+<tr><th>Perfil</th>
+<th>Paciente</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar o cadastro, envio e recebimento de prescrição</th></tr>
+<tr><th> Passos</th>
+<th>Acessar o navegador
 Informar o endereço do Site;
 Realizar o login;
 Clicar no botão “Importar/Exportar arquivo”
 Selecionar o arquivo da prescrição
-Clicar em ENVIAR
+Clicar em ENVIAR</th></tr>
  </table>
 
 
 <table>
-Caso de Teste
-CTU-11–Pesquisa de preços
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar as opções da pesquisa de preços
-Passos
-1)   Acessar o Navegador;
+<tr><th>Caso de Teste</th>
+<th>CTU-11–Pesquisa de preços</th></tr>
+<tr><th>Perfil</th>
+<th>Paciente</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar as opções da pesquisa de preços</th></tr>
+<tr><th>Passos</th>
+<th>1)   Acessar o Navegador;
 2)   Informar o endereço do Site;
 3)   Acessar a página ‘Pesquisa de preço’;
 4)   Visualizar o campo de preenchimento relativo ao nome do medicamento.
@@ -212,20 +212,20 @@ Passos
 7)   Ao buscar o medicamento, o aplicativo deve possuir um sistema de localização que permita mostrar as farmácias mais próximas da residência do usuário
 8) Em seguida deve apresentar várias farmácias onde o medicamento encontra-se disponível e cada uma com o preço praticado;
 9) O ícone da farmácia deve ser um link de redirecionamento para a mesma, possibilitando ao paciente comprar o medicamento on-line, e, caso deseje, fornecer o endereço físico para compra presencial.
-10) O sistema deve apresentar uma opção de avaliação do atendimento após a compra realizada com notas de 0 (para muito ruim) a 5 (para muito bom).
+10) O sistema deve apresentar uma opção de avaliação do atendimento após a compra realizada com notas de 0 (para muito ruim) a 5 (para muito bom).</th></tr>
 
  </table>
 
 
 <table>
-Caso de Teste
-CTU-10 - Notificações
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar o sistema de alarmes da aplicação 
-Passos
-1) Acessar o navegador
+<tr><th>Caso de Teste</th>
+<th>CTU-12 - Notificações</th></tr>
+<tr><th>Perfil</th>
+<th>Paciente</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar o sistema de alarmes da aplicação </th></tr>
+<tr><th>Passos</th>
+<th>1) Acessar o navegador
 2) Informar o endereço do Site;
 3) Realizar o login;
 4) Acessar a seção Notificações
@@ -238,7 +238,7 @@ Passos
 11) Clicar em salvar
 12) Selecionar a opção “Notificação de afastamento de casa”
 13) Deve apresentar uma tela para ativar localização e distância que o alarme deve disparar
-14) Clicar em salvar
+14) Clicar em salvar</th></tr>
  </table>
 
 
