@@ -80,5 +80,10 @@ As ferramentas empregadas no projeto são:
 - Editor de código: Visual Studio Code
 - Ferramentas de comunicação: WhatsApp, Teams
 - Ferramentas de desenho de tela: Figma
+- Editor de diagramas UML
+    * StarUML (Esquema Relacional "pé de Galinha")
+    * Draw.io (Diagrama Entidade-Relacionamento)
+    * MS PowerPoint (Modelo Relacional)
+    * InDesign (Diagrama de Fluxo de Dados)
 
 O VS Code foi escolhido por ser uma solução gratuita, leve e versátil, além de possuir integração com o GitHub e GitHub Desktop, o que facilita o controle de versões e a gestão das branches.
