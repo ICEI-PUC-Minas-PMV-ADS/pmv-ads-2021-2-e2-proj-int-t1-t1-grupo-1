@@ -1,5 +1,6 @@
 <h3>3.   Avaliação da Solução<h3>
-O processo de realização dos testes da solução desenvolvida está documentado na seção que se segue e traz os planos de testes de software e de usabilidade, na sequência, o registro dos testes realizados.
+<p>O processo de realização dos testes da solução desenvolvida está documentado na seção que se segue e traz os planos de testes de software e de usabilidade, na sequência, o registro dos testes realizados.</p>
+ 
 Plano de Testes de Usabilidade
 Avaliação do Percurso Cognitivo
 Para cada um dos casos de teste listados a seguir, o avaliador deve fazer as seguintes perguntas e justificar as respostas:
