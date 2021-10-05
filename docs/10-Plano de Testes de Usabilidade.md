@@ -18,9 +18,9 @@ Em caso de respostas negativas, o avaliador deve propor uma solução, da seguin
 <tr>4 Destacar ou expressar mais claramente as respostas dos sistema (propor a modificação)</tr>
 </table>
 
-
-Caso de Teste
-CTU-01 – Login de usuário
+<table>
+ <tr><th>Caso de Teste</th>
+  <th>CTU-01 – Login de usuário</th></tr>
 Perfil
 Paciente
 Objetivo do Teste
@@ -33,7 +33,7 @@ Preencher CPF/ CRF no campo indicado
 Preencher senha no campo indicado;
 Selecionar tipo de usuário (“paciente”/“funcionário da farmácia”)
 Clicar em ‘Login’.
-
+</table>
 
 Caso de Teste
 CTU-02 – Cadastro de novo usuário
