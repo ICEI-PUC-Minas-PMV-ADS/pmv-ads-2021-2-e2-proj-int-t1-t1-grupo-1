@@ -74,7 +74,7 @@ Clicar no botão ‘Concluir’ que levará para a próxima tela; </th></tr>
 <th>CTU-04 – Tela Perfil</th></tr>
 <tr><th>Perfil</th>
 <th>Paciente</th></tr>
-<tr>Objetivo do Teste</th>
+<tr><th>Objetivo do Teste</th>
 <th>Avaliar a tela de perfil do paciente</th></tr>
  <tr><th>Passos</th>
 <th>Acessar o Navegador
@@ -90,7 +90,7 @@ Verificar a página principal do perfil</th></tr>
 <th>CTU-05 – Tela Perfil</th></tr>
 <tr><th>Perfil</th>
 <th>Atendente</th></tr>
-<tr>Objetivo do Teste</th>
+<tr><th>Objetivo do Teste</th>
 <th>Avaliar a tela de perfil do atendente</th></tr>
 <tr><th>Passos</th>
 <th>Acessar o Navegador
@@ -107,7 +107,7 @@ Verificar a página principal do perfil</th></tr>
 <th>CTU-06 – Tela Perfil</th></tr>
 <tr><th>Perfil</th>
 <th>Farmacêutico</th></tr>
-<tr>Objetivo do Teste</th>
+<tr><th>Objetivo do Teste</th>
 <th>Avaliar a tela de perfil do farmacêutico</th></tr>
 <tr><th>Passos</th>
 <th>Acessar o Navegador
@@ -124,7 +124,7 @@ Verificar a página principal do perfil</th></tr>
 <th>CTU-07 – Cadastro Tratamento</th></tr>
 <tr><th>Perfil</th>
 <th>Paciente</th></tr>
-<tr>Objetivo do Teste</th>
+<tr><th>Objetivo do Teste</th>
 <th>Avaliar o cadastro de tratamento</th></tr>
 <tr><th>Passos</th>
 <th>Acessar o Navegador;
