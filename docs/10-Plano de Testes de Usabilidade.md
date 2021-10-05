@@ -21,18 +21,18 @@ Em caso de respostas negativas, o avaliador deve propor uma solução, da seguin
 <table>
  <tr><th>Caso de Teste</th>
   <th>CTU-01 – Login de usuário</th></tr>
-Perfil
-Paciente
-Objetivo do Teste
-Avaliar a usabilidade da tela de Login
-Ações necessárias
-Acessar o Navegador;
+ <tr><th>Perfil</th>
+  <th>Paciente</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar a usabilidade da tela de Login</th></tr>
+ <tr><th>Ações necessárias</th>
+<th>Acessar o Navegador;
 Informar o endereço do Site;
 Visualizar a página de login;
 Preencher CPF/ CRF no campo indicado
 Preencher senha no campo indicado;
 Selecionar tipo de usuário (“paciente”/“funcionário da farmácia”)
-Clicar em ‘Login’.
+ Clicar em ‘Login’.</th></tr>
 </table>
 
 Caso de Teste
