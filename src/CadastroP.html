@@ -11,6 +11,17 @@
     <title>Cadastro de novo usuario</title>
     <script type="text/javascript">
 
+        function mascara(cpf) {
+            if (cpf.value.length == 3)
+                cpf.value = cpf.value + '.'; //quando já tiver 3 caracteres, o script irá inserir um ponto.
+
+            if (cpf.value.length == 7)
+                cpf.value = cpf.value + '.'; //quando o campo já tiver 7 caracteres (3 números e 1 ponto) o script irá inserir mais um ponto.
+
+            if (cpf.value.length == 11)
+                cpf.value = cpf.value + '-'; //quando o campo já tiver 11 caracteres, o script irá inserir um tracinho, para melhor visualização do cpf.
+        }
+
         function mascara(telefone) {
             if (telefone.value.length == 0)
                 telefone.value = '(' + telefone.value; //quando começamos a digitar, o script irá inserir um parênteses no começo do campo.
@@ -22,16 +33,7 @@
                 telefone.value = telefone.value + '-'; //quando o campo já tiver 8 caracteres, o script irá inserir um tracinho, para melhor visualização do telefone.
         }
 
-        function mascara(cpf) {
-            if (cpf.value.length == 3)
-                cpf.value = cpf.value + '.'; //quando já tiver 3 caracteres, o script irá inserir um ponto.
 
-            if (cpf.value.length == 7)
-                cpf.value = cpf.value + '.'; //quando o campo já tiver 7 caracteres (3 números e 1 ponto) o script irá inserir mais um ponto.
-
-            if (cpf.value.length == 11)
-                cpf.value = cpf.value + '-'; //quando o campo já tiver 11 caracteres, o script irá inserir um tracinho, para melhor visualização do cpf.
-        }
 
     </script>
     <style>
@@ -60,6 +62,7 @@
         .espaco_t {
             margin-top: 3px;
         }
+
         .espaco_t2 {
             margin-top: 20px;
         }
@@ -72,40 +75,42 @@
 </head>
 <header>
     <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #83ACF2;">
-      <div >
-        <img class="img-fluid" alt="Responsive image" src="img/logo2.png" width="70" href="home.html">
-        <a class="navbar-brand" href="#">Minha Saúde</a>
-      </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Paciente</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Medicamentos
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Cadastrar</a>
-            <a class="dropdown-item" href="#">Procurar</a>
-            <a class="dropdown-item" href="#">Alterar</a>
-          </div>
-    
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Procurar</button>
-      </form>
-    </div>
-  </nav>
-  </header>
+        <div>
+            <img class="img-fluid" alt="Responsive image" src="img/logo2.png" width="70" href="home.html">
+            <a class="navbar-brand" href="#">Minha Saúde</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Paciente</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Medicamentos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Cadastrar</a>
+                        <a class="dropdown-item" href="#">Procurar</a>
+                        <a class="dropdown-item" href="#">Alterar</a>
+                    </div>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Procurar</button>
+            </form>
+        </div>
+    </nav>
+</header>
 
 <body>
     <div>
