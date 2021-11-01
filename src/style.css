@@ -33,6 +33,34 @@ html, body{
     text-align: center;
 }
 
+/* Tela inicial */
+
+.tela-inicial {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    color: #63B3ED;
+}
+
+#img-logo-inicial {
+    display: flex;
+    justify-content: center;
+}
+
+.tela-inicial p{
+    margin: 0 5% 5% 5%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#titulo-principal {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
 
 input, select, button{
     padding:0.6em;
@@ -65,7 +93,6 @@ fildeset .grupo .campo{
     background: #e0e0f8;
 }
 
-}
     .botao:hover{
         background: #0005;
         box-shadow: inset 1px 2px 2px 2px rgba(0,0,0,0.2);
