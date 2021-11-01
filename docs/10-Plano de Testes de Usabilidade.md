@@ -46,7 +46,7 @@ Em caso de respostas negativas, o avaliador deve propor uma solução, da seguin
  <th>Acessar a primeira tela do site pelo browser, conforme CTU-01;
  Clicar na opção “Cadastro”;
  Preencher os campos necessários do formulário;
- Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Crie sua senha”.</th></tr>
+ Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Finalizar Cadastro.</th></tr>
 </table>
 
 <table>
