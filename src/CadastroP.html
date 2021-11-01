@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Cadastro de novo usuario</title>
+    <script type="text/javascript">
+
+        function mascara(cpf) {
+            if (cpf.value.length == 3)
+                cpf.value = cpf.value + '.'; //quando já tiver 3 caracteres, o script irá inserir um ponto.
+
+            if (cpf.value.length == 7)
+                cpf.value = cpf.value + '.'; //quando o campo já tiver 7 caracteres (3 números e 1 ponto) o script irá inserir mais um ponto.
+
+            if (cpf.value.length == 11)
+                cpf.value = cpf.value + '-'; //quando o campo já tiver 11 caracteres, o script irá inserir um tracinho, para melhor visualização do cpf.
+        }
+
+        function mascara(telefone) {
+            if (telefone.value.length == 0)
+                telefone.value = '(' + telefone.value; //quando começamos a digitar, o script irá inserir um parênteses no começo do campo.
+
+            if (telefone.value.length == 3)
+                telefone.value = telefone.value + ') '; //quando o campo já tiver 3 caracteres (um parênteses e 2 números) o script irá inserir mais um parênteses, fechando assim o código de área.
+
+            if (telefone.value.length == 10)
+                telefone.value = telefone.value + '-'; //quando o campo já tiver 8 caracteres, o script irá inserir um tracinho, para melhor visualização do telefone.
+        }
+
+
+
+    </script>
+    <style>
+        h1 {
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            padding: 10px;
+            background-color: f8f8f8;
+            text-align: center;
+        }
+
+        .quebra {
+            display: block;
+        }
+
+        .espaco {
+            margin-bottom: 10px;
+        }
+
+        .espaco_t {
+            margin-top: 3px;
+        }
+
+        .espaco_t2 {
+            margin-top: 20px;
+        }
+
+        form {
+            padding: 10px;
+            background-color: f8f8f8;
+        }
+    </style>
+</head>
+<header>
+    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #83ACF2;">
+        <div>
+            <img class="img-fluid" alt="Responsive image" src="img/logo.png" width="70" href="home.html">
+            <a class="navbar-brand" href="#">Minha Saúde</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Paciente</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Medicamentos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Cadastrar</a>
+                        <a class="dropdown-item" href="#">Procurar</a>
+                        <a class="dropdown-item" href="#">Alterar</a>
+                    </div>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Procurar</button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div>
+        <h1 class="espaco_t2" id="titulo_1">Cadastro de Novo Usuário</h1>
+    </div>
+
+    <div>
+        <h2 id="titulo_2"><strong>Paciente</strong></h2>
+    </div>
+
+    <form name="cadastro_novo_usuario" action="#" method="get">
+        <fildset class="grupo">
+            <div class="campo">
+                <p id="orientacao" class="espaco_t">*Campos de preenchimento obrigatório</p>
+                <label><strong>Nome*</strong></label>
+                <input class="espaco quebra" type="text" name="f_nome" placeholder="Digite seu nome completo" required>
+                <label><strong>CPF*</strong></label>
+                <input class="espaco quebra" type="text" name="f_cpf" maxlength="14" onkeypress="mascara(this)"
+                    placeholder="Digite seu CPF" required>
+                <label><strong>Telefone*</strong></label>
+                <input class="espaco quebra" type="text" name="f_tel" maxlength="15" onkeypress="mascara(this)"
+                    pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxxx" required>
+                <label><strong>Data de nascimento</strong></label>
+                <input class="espaco quebra" type="date" name="f_data_nascimento"
+                    placeholder="Seja desejar, digite sua data de nascimento">
+                <label><strong>E-mail*</strong></label>
+                <input class="espaco quebra" type="email" name="f_email" placeholder="Digite seu email" required>
+                <label><strong>Confirmação de e-mail*</strong></label>
+                <input class="espaco quebra" type="email" name="f_confirmacao_email" placeholder="Confirme seu email"
+                    required>
+                <label><strong>Senha*</strong></label>
+                <p id="orientacao" class="espaco_t">Crie uma senha segura de 6 dígitos com números e letras</p>
+                <input class="espaco quebra" type="password" name="f_senha" pattern="[a-zA-Z0-9]{6}"
+                    placeholder="Crie uma senha de 6 dígitos" required>
+                <label><strong>Confirmação de senha*</strong></label>
+                <input class="espaco quebra" type="password" name="f_confsenha" placeholder="Confirme a senha" required>
+            </div>
+        </fildset>
+
+        <div>
+            <button class="btn-light btn-fluid p-3" type="submit"><strong>Finalizar cadastro</strong></button>
+        </div>
+
+    </form>
+</body>
+
+</html>
