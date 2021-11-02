@@ -73,7 +73,7 @@ input, select, button{
 
 
 
-fildeset .grupo .campo{
+fieldset .grupo .campo{
     float: left;
     margin-right: 1em;
 }
@@ -104,4 +104,45 @@ fildeset .grupo .campo{
     font-size: 12px;
     color: #380B61;
     margin-left: 0%;
+}
+
+h1 {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 10px;
+    background-color: f8f8f8;
+    text-align: center;
+}
+
+.quebra {
+    display: block;
+}
+
+.espaco {
+    margin-bottom: 10px;
+}
+
+.espaco_t {
+    margin-top: 3px;
+}
+
+.espaco_t2 {
+    margin-top: 20px;
+}
+
+form {
+    padding: 10px;
+    background-color: f8f8f8;
+}
+
+#anotacoes {
+    text-align: center;
+    align-items: center;
+
 }
