@@ -18,8 +18,9 @@ namespace MinhaSaude.Models
         [Required(ErrorMessage ="É necessário informar o Laboratório!")]
         public string Laboratorio { get; set; }
 
+        [Display(Name ="Tipo")]
         [Required(ErrorMessage ="É necessário informar o tipo do medicamento!")]
-        public TipoMedicamento Tipo { get; set; }
+        public string Tipo { get; set; }
 
         [Display(Name ="Princípio Ativo")]
         [Required(ErrorMessage ="É necessário informar o Princípio Ativo!")]
@@ -28,12 +29,4 @@ namespace MinhaSaude.Models
         [Required(ErrorMessage ="É necessário informar a dosagem do princípio ativo!")]
         public string Dosagem { get; set; }
     }
-    public enum TipoMedicamento
-    {
-        Comprimido,
-        Capsula,
-        Gotas,
-        Ampola,
-        Liquido
-    }
-}
+ }
