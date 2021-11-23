@@ -166,3 +166,4 @@ E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\sr
 E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Tratamentos\Details.cshtml.g.cs
 E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Tratamentos\Edit.cshtml.g.cs
 E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Tratamentos\Index.cshtml.g.cs
+E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\MinhaSaude.csproj.AssemblyReference.cache
