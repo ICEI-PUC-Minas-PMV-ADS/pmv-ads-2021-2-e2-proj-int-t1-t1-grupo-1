@@ -7,7 +7,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using MinhaSaude.Data;
+using Pomelo.EntityFrameworkCore.MySql;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,9 +29,23 @@ namespace MinhaSaude
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+            // Replace with your connection string.
+            var connectionString = "server=localhost;port=3306;uid=root;password=123456;database=MinhaSaude";
+
+            // Replace with your server version and type.
+            // Use 'MariaDbServerVersion' for MariaDB.
+            // Alternatively, use 'ServerVersion.AutoDetect(connectionString)'.
+            // For common usages, see pull request #1233.
+            var serverVersion = new MySqlServerVersion(new Version(8, 0, 27));
+
+            // Replace 'YourDbContext' with the name of your own DbContext derived class.
+            services.AddDbContext<ApplicationDbContext>(
+                dbContextOptions => dbContextOptions
+                    .UseMySql(connectionString, serverVersion)
+                    .LogTo(Console.WriteLine, LogLevel.Information)
+                    .EnableSensitiveDataLogging()
+                    .EnableDetailedErrors());
+
 
             services.AddDatabaseDeveloperPageExceptionFilter();
 
