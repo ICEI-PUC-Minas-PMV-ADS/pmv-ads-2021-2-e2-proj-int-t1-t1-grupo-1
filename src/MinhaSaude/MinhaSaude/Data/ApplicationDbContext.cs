@@ -13,8 +13,11 @@ namespace MinhaSaude.Data
             : base(options)
         {
         }
+        public DbSet<CaixinhaDeRemedios> CaixinhaDeRemedioss { get; set; }
         public DbSet<Medicamento> Medicamentos { get; set; }
         public DbSet<Tratamento> Tratamentos { get; set; }
+        public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<Farmacia> Farmacias { get; set; }
 
     }
 }

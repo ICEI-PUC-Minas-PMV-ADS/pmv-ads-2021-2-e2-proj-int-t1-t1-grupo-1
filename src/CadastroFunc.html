@@ -52,22 +52,6 @@
             text-align: center;
         }
 
-        .quebra {
-            display: block;
-        }
-
-        .espaco {
-            margin-bottom: 10px;
-        }
-
-        .espaco_t {
-            margin-top: 3px;
-        }
-
-        .espaco_t2 {
-            margin-top: 20px;
-        }
-
         form {
             padding: 10px;
             background-color: f8f8f8;
@@ -119,32 +103,32 @@
     </div>
 
     <div>
-        <h2 id="titulo_2"><strong>Atendente da Farmácia</strong></h2>
+        <h2 id="titulo_2"><strong>Funcionários da Farmácia</strong></h2>
     </div>
 
     <form name="cadastro_novo_usuario" action="#" method="get">
         <fildset class="grupo">
             <div class="campo">
-                <p id="orientacao" class="espaco_t">*Campos de preenchimento obrigatório</p>
+                <p id="orientacao" >*Campos de preenchimento obrigatório</p>
                 <label><strong>Nome*</strong></label>
-                <input class="espaco quebra" type="text" name="f_nome" placeholder="Digite seu nome completo" required>
-                <label><strong>CPF*</strong></label>
-                <input class="espaco quebra" type="text" name="f_cpf" maxlength="14" onkeypress="mascara(this)"
-                    placeholder="Digite seu CPF" required>
+                <input type="text" name="f_nome" placeholder="Digite seu nome completo" required>
+                <label><strong>Farmácia*</strong></label>
+                <input type="text" name="f_cpf" maxlength="14" onkeypress="mascara(this)"
+                    placeholder="Digite o nome da Farmácia" required>
                 <label><strong>Telefone*</strong></label>
                 <input class="espaco quebra" type="text" name="f_tel" maxlength="15" onkeypress="mascara(this)"
                     pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxxx" required>
                 <label><strong>E-mail*</strong></label>
-                <input class="espaco quebra" type="email" name="f_email" placeholder="Digite seu email" required>
+                <input type="email" name="f_email" placeholder="Digite seu email" required>
                 <label><strong>Confirmação de e-mail*</strong></label>
-                <input class="espaco quebra" type="email" name="f_confirmacao_email" placeholder="Confirme seu email"
+                <input type="email" name="f_confirmacao_email" placeholder="Confirme seu email"
                     required>
                 <label><strong>Senha*</strong></label>
-                <p id="orientacao" class="espaco_t">Crie uma senha segura de 6 dígitos com números e letras</p>
-                <input class="espaco quebra" type="password" name="f_senha" pattern="[a-zA-Z0-9]{6}"
+                <p id="orientacao">Crie uma senha segura de 6 dígitos com números e letras</p>
+                <input type="password" name="f_senha" pattern="[a-zA-Z0-9]{6}"
                     placeholder="Crie uma senha de 6 dígitos" required>
                 <label><strong>Confirmação de senha*</strong></label>
-                <input class="espaco quebra" type="password" name="f_confsenha" placeholder="Confirme a senha" required>
+                <input type="password" name="f_confsenha" placeholder="Confirme a senha" required>
             </div>
         </fildset>
 
