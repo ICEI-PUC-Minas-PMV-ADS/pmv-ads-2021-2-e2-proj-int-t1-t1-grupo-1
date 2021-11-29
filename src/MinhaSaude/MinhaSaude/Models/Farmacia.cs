@@ -24,6 +24,7 @@ namespace MinhaSaude.Models
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a senha!")]
+        [DataType(DataType.Password)]
         public string Senha { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o perfil!")]
