@@ -1,6 +1,6 @@
 using System;
 
-namespace MinhaSaude.Models
+namespace MInhaSaude.Models
 {
     public class ErrorViewModel
     {
