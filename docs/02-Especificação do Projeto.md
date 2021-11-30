@@ -54,7 +54,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-01|O sistema deve ter um cadastro de medicamentos, incluindo: nome, laboratório, dosagem, tipo (comprimido, gota, ampola, etc).|Alta|
 |RF-02|O sistema deve possuir um banco de dados de medicamentos para seleção do usuário no cadastro de tratamento|Baixa|
 |RF-03|O sistema deve permitir cadastro de tratamento, incluindo: nome do medicamento, dosagem, horários de ingestão e duração do tratamento.|Alta|
-|RF-04|O sistema deve apresentar um formulário de cadastro para novos usuários contendo: Tipo de usuário (Paciente / Funcionário da farmácia), nome, CPF/CRF, endereço completo, data de nascimento, telefone, e-mail.|Alta|
+|RF-04|O sistema deve apresentar um formulário de cadastro para novos usuários contendo: Tipo de usuário (Paciente / Funcionário da farmácia), nome, CPF, telefone, e-mail, perfil.|Alta|
 |RF-05|O sistema deve permitir cadastro de Caixinha de medicamentos, com quantidade alterada quando usuário confirma a ingestão.|Média|
 |RF-06|O cadastro de Caixinha deve incluir data de validade e lote|Baixa|
 |RF-07|O sistema deve emitir alerta com notificação nos horários de ingestão cadastrados no tratamento|Alta|
@@ -67,7 +67,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-14|O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar ou recuperar senha.|Baixa|
 |RF-15|O sistema deve conter um formulário que permita ao usuário cadastrar uma nova senha em caso de esquecimento.|Alta|
 |RF-16|O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado.|Alta|
-|RF-17|A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Alarme, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento, Inserir bula (Considerando o tipo de cada perfil)|Alta|
+|RF-17|A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Alarme, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento (Considerando o tipo de cada perfil)|Alta|
 |RF-18|O sistema deve apresentar uma página para Visualizar Receita.|Média|
 |RF-19|O sistema deve monitorar a localização do usuário e emitir alerta quando este se deslocar da sua residência (cadastrada no perfil) para que leve os remédios do tratamento cadastrado|Baixa|
 

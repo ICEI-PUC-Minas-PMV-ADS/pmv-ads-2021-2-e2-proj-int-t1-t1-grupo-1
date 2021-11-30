@@ -1,0 +1,148 @@
+#titulo_1{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+}
+
+#titulo_2{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+}
+
+fieldset{
+    border: 0;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F8F8F8;
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    background-color: #83ACF2; 
+    text-align: center;
+}
+
+/* Tela inicial */
+
+.tela-inicial {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    color: #63B3ED;
+}
+
+#img-logo-inicial {
+    display: flex;
+    justify-content: center;
+}
+
+.tela-inicial p{
+    margin: 0 5% 5% 5%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#titulo-principal {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+
+input, select, button{
+    padding:0.6em;
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+
+
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"], .campo input[type="date"], .campo select{
+    height:30px;
+    width:400px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+.campo input:focus, .campo select:focus{
+    background: #e0e0f8;
+}
+
+    .botao:hover{
+        background: #0005;
+        box-shadow: inset 1px 2px 2px 2px rgba(0,0,0,0.2);
+        text-shadow: none;
+}
+
+#orientacao{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #380B61;
+    margin-left: 0%;
+}
+
+h1 {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.quebra {
+    display: block;
+}
+
+.espaco {
+    margin-bottom: 10px;
+}
+
+.espaco_t {
+    margin-top: 3px;
+}
+
+.espaco_t2 {
+    margin-top: 20px;
+}
+
+form {
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+#anotacoes {
+    text-align: center;
+    align-items: center;
+
+}

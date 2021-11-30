@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/src/MinhaSaude/.vs/MinhaSaude/config/applicationhost.config
+src/MinhaSaude/.vs/MinhaSaude/v16/.suo
+src/MinhaSaude/MinhaSaude/obj/Debug/net5.0/MinhaSaude.csproj.CoreCompileInputs.cache

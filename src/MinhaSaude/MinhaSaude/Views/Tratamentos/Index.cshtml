@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MinhaSaude.Models.Tratamento>
+
+@{
+    ViewData["Title"] = "Tratamentos";
+}
+
+<h4>Tratamentos</h4>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Adicionar Tratamento</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Duracao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FrequenciaUso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Anotacoes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Medicamento.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duracao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FrequenciaUso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Anotacoes)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
