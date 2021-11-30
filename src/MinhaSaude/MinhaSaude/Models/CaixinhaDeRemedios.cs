@@ -15,11 +15,13 @@ namespace MinhaSaude.Models
        [Key]
         public int Id { get; set; }
 
-        //Especifica que o campo e obrigatorio e possui uma validação no back-end e no front-end, caso alguém desative o javascript no front-end. Isso envia para o back-end
-        [Required(ErrorMessage ="Campo requerido")]
-        public String NomeMedicamento{ get; set; }
+        [Display(Name = "Medicamento")]
+        [Required(ErrorMessage = "É necessário informar o medicamento!")]
+        public int MedicamentoId { get; set; }
+
+        [ForeignKey("MedicamentoId")]
+        public Medicamento Medicamento { get; set; }
 
         public int Quantidade { get; set; }
-
     }
 }
