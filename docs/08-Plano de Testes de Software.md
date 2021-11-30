@@ -31,31 +31,21 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 |**Caso de Teste**|**CT-04 – Tela Perfil**|
 |-----------------|---------------------------------|
-|**Requisitos Associados**|RF-12 – O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar); RF-16 - O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Alarme, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento, Inserir bula (Considerando o tipo de cada perfil).|
+|**Requisitos Associados**|RF-12 – O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar); RF-16 - O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento (Considerando o tipo de cada perfil).|
 |**Perfil**|Paciente|
 |**Objetivo do Teste**|Verificar se após o login é exibido a tela principal do perfil|
 |**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página principal; Clicar em Login; Preencher o CPF e a senha; Verificar a página principal do perfil.|
-|**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades: Botão “Tratamentos”; Botão “Medicamentos”; Botão “Menor preço”; Botão “Receitas”; Botão “Importar/Exportar arquivo”; Próximos medicamentos a serem ingeridos (Nome do medicamento, hora e quantidade); Caixinha de Remédios, indicando os medicamentos cadastrados em algum tratamento e a quantidade restante; Novidades sobre a aplicação.|
+|**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades: Botão “Tratamentos”; Botão “Medicamentos”; Botão “Visualizar Receitas”; Botão “Importar/Exportar arquivo”; Próximos medicamentos a serem ingeridos (Nome do medicamento, hora e quantidade); Caixinha de Remédios, indicando os medicamentos cadastrados em algum tratamento e a quantidade restante.|
 
 
 
 |**Caso de Teste**|**CT-05 – Tela Perfil**|
 |-----------------|---------------------------------|
-|**Requisitos Associados**|RF-12 – O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar); RF-16 - O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Alarme, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento, Inserir bula (Considerando o tipo de cada perfil).|
-|**Perfil**|Atendente|
+|**Requisitos Associados**|RF-12 – O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar); RF-16 - O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento (Considerando o tipo de cada perfil).|
+|**Perfil**|Funcionário da Farmácia (Atendente/Farmacêutico)|
 |**Objetivo do Teste**|Verificar se após o login é exibido a tela principal do perfil.|
 |**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página principal; Clicar em Login; Preencher o CPF e a senha; Verificar a página principal do perfil.|
-|**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades: Botão “Cadastrar Tratamento”; Botão “Medicamentos”; Botão “Receitas”; Botão “Importar/Exportar arquivo”; Média das avaliações dos pacientes; Novidades sobre a aplicação.|
-
-
-
-|**Caso de Teste**|**CT-06 – Tela Perfil**|
-|-----------------|---------------------------------|
-|**Requisitos Associados**|RF-12 – O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar); RF-16 - O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Alarme, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento, Inserir bula (Considerando o tipo de cada perfil).|
-|**Perfil**|Farmacêutico|
-|**Objetivo do Teste**|Verificar se após o login é exibido a tela principal do perfil correspondente|
-|**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página principal; Clicar em Login; Preencher o CRF e a senha; Verificar a página principal do perfil.|
-|**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades: Botão “Cadastrar Tratamento”; Botão “Medicamentos”; Botão “Receitas”; Botão “Importar/Exportar arquivo”; Média das avaliações dos pacientes; Novidades sobre a aplicação.|
+|**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades: Botão; Botão “Medicamentos”; Botão “Importar/Exportar arquivo”.|
 
 
 
