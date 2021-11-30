@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v9buJc7LgBeU16AtMeEQrQyNRdPnMbgSSn/fxevwloGPbssisheV2iXMrEb6Mf57jDhy+LUdZ9likINiGEHj9g==",
+  "dgSpecHash": "ndjUx796oS8JOBbAJqvabF5cxK0EwHzrvj4/hY3UZ+z7TTx+90Mx5zcW4e6AjXq/e8yeKIeKp6eZl9hLN3z4Hw==",
   "success": true,
   "projectFilePath": "E:\\OneDrive - sga.pucminas.br\\GitHub\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\5.0.2\\microsoft.visualstudio.web.codegeneration.5.0.2.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\5.0.2\\microsoft.visualstudio.web.codegeneration.contracts.5.0.2.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\5.0.2\\microsoft.visualstudio.web.codegeneration.core.5.0.2.nupkg.sha512",
