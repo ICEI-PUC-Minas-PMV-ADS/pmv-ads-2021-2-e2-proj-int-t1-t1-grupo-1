@@ -49,7 +49,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 
 
-|**Caso de Teste**|**CT-07 – Cadastro Tratamento**|
+|**Caso de Teste**|**CT-06 – Cadastro Tratamento**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-02 – O sistema deve possuir um banco de dados de medicamentos para seleção do usuário no cadastro de tratamento; RF-03 - O sistema deve permitir cadastro de tratamento, incluindo: nome do medicamento, dosagem, horários de ingestão e duração do tratamento; RF-11 – O sistema deve permitir a inserção e a leitura de bulas de medicamentos.|
 |**Perfil**|Paciente|
@@ -59,7 +59,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 
 
-|**Caso de Teste**|**CT-08 – Cadastro Medicamento**|
+|**Caso de Teste**|**CT-07 – Cadastro Medicamento**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-01 - O sistema deve ter um cadastro de medicamentos, incluindo: nome, laboratório, dosagem, tipo (comprimido, gota, ampola, etc); RF-11 – O sistema deve permitir a inserção e a leitura de bulas de medicamentos;
 |**Perfil**|Paciente|
@@ -68,7 +68,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
  |**Critérios de Êxito**|Os campos para preenchimento deverão permitir a entrada de dados; Após clicar em Cadastrar, deve-se retornar automaticamente para a tela Cadastrar Tratamento, com o medicamento cadastrado já selecionado; A bula deve estar disponível para leitura.|
 
 
-|**Caso de Teste**|**CT-09 - Atualização da “Caixinha de Remédios”**|
+|**Caso de Teste**|**CT-08 – Atualização da “Caixinha de Remédios”**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-05 – O sistema deve permitir cadastro de Caixinha de medicamentos, com quantidade alterada quando usuário confirma a ingestão; RF-06 – O cadastro de Caixinha deve incluir data de validade e lote.|
 |**Perfil**|Paciente|
@@ -78,7 +78,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 
 
-|**Caso de Teste**|**CT-10 – Importar e exportar prescrição**|
+|**Caso de Teste**|**CT-09 – Importar e exportar prescrição**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-12 – O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar)|
 |**Perfil**|Paciente|
@@ -87,7 +87,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |**Critérios de Êxito**|Cadastrar data de validade e lote e consultá-lo posteriormente pelo menu de buscas de produtos.|
 
 
-|**Caso de Teste**|**CT-11–Pesquisa de preços**|
+|**Caso de Teste**|**CT-10 – Pesquisa de preços**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-09 – O sistema deve ter um sistema de localização de farmácias (pode ser pelo Google Maps), considerando a localização atual do usuário; RF-10 - O sistema deve permitir a comparação de preços de um medicamento selecionado entre diversas farmácias; RF-13 – O sistema deve permitir o registro da qualidade do atendimento das farmácias para futura comparação.|
 |**Perfil**|Paciente|
@@ -97,7 +97,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 
 
-|**Caso de Teste**|**CT-12 - Notificações**|
+|**Caso de Teste**|**CT-11 - Notificações**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-05 – O sistema deve permitir cadastro de Caixinha de medicamentos, com quantidade alterada quando usuário confirma a ingestão; RF-07 – O sistema deve emitir alerta com notificação nos horários de ingestão cadastrados na posologia; RF-08 – O sistema deve emitir alerta de quantidade baixa de medicamento, considerando a quantidade definida pelo usuário (“quando quantidade for menor que X comprimidos”).|
 |**Perfil**|Paciente|
