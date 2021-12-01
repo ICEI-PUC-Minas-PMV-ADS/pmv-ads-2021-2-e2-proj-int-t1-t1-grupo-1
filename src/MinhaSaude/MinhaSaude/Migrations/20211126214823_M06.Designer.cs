@@ -328,37 +328,37 @@ namespace MinhaSaude.Migrations
                     b.ToTable("Tratamentos");
                 });
 
-            modelBuilder.Entity("MinhaSaude.Models.Usuario", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+            //modelBuilder.Entity("MinhaSaude.Models.Usuario", b =>
+            //    {
+            //        b.Property<int>("Id")
+            //            .ValueGeneratedOnAdd()
+            //            .HasColumnType("int")
+            //            .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CPF")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+            //        b.Property<string>("CPF")
+            //            .IsRequired()
+            //            .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+            //        b.Property<string>("Email")
+            //            .IsRequired()
+            //            .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+            //        b.Property<string>("Nome")
+            //            .IsRequired()
+            //            .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Senha")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+            //        b.Property<string>("Senha")
+            //            .IsRequired()
+            //            .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Telefone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+            //        b.Property<string>("Telefone")
+            //            .IsRequired()
+            //            .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+            //        b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
-                });
+            //        b.ToTable("Usuarios");
+            //    });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {

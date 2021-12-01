@@ -215,6 +215,29 @@ namespace MinhaSaude.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("MinhaSaude.Models.Administrador", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Acesso")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Administrador");
+                });
+
             modelBuilder.Entity("MinhaSaude.Models.CaixinhaDeRemedios", b =>
                 {
                     b.Property<int>("Id")
@@ -222,14 +245,15 @@ namespace MinhaSaude.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("NomeMedicamento")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("MedicamentoId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Quantidade")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MedicamentoId");
 
                     b.ToTable("CaixinhaDeRemedios");
                 });
@@ -407,6 +431,17 @@ namespace MinhaSaude.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("MinhaSaude.Models.CaixinhaDeRemedios", b =>
+                {
+                    b.HasOne("MinhaSaude.Models.Medicamento", "Medicamento")
+                        .WithMany()
+                        .HasForeignKey("MedicamentoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Medicamento");
                 });
 
             modelBuilder.Entity("MinhaSaude.Models.Tratamento", b =>

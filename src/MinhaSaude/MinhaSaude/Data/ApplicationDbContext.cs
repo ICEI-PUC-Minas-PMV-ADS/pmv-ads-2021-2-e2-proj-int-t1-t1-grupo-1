@@ -18,6 +18,7 @@ namespace MinhaSaude.Data
         public DbSet<Tratamento> Tratamentos { get; set; }
         public DbSet<Paciente> Pacientes { get; set; }
         public DbSet<Farmacia> Farmacias { get; set; }
+        public DbSet<Administrador> Administradores { get; set; }
 
     }
 }
