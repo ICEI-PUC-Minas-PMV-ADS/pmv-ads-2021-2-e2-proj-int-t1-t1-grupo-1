@@ -10,7 +10,7 @@
 <body>
     <header>
         <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #83ACF2;">
-            <img class="img-fluid" src="~/img/logosemtitulo.png" class="detailImage" width="70" />
+            <img class="img-fluid detailImage" src="~/img/logosemtitulo.png" width="70" />
             <div class="col ">
                 <div class="" href="#">Minha Saúde</div>
                 <div class="texto mt-0"> <?= date('d-m-Y') ?></div>
@@ -35,27 +35,35 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Farmacias" asp-action="Index">Farmacias <span class="sr-only"></span></a>
+                                <a class="nav-link" asp-area="" asp-controller="Farmacias" asp-action="Index">Funcionário <span class="sr-only"></span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="PerfilPaciente">Paciente</a>
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="PerfilPaciente">Cliente</a>
                             </li>
+
                             <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Sair</a>
-                            </li>
-                        }
-                    </ul>
-                    <ul class="navbar-nav">
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            <li class="nav-item">
-                                Olá, @User.Identity.Name <a class="nav-link" asp-area="" asp-controller="Administradores" asp-action="Logout">Sair</a>
+                                <a class="nav-link" asp-area="" asp-controller="Administradores" asp-action="Logout">Sair</a>
                             </li>
                         }
                         else
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Administradores" asp-action="Login">Login</a>
+                                <a class="nav-link" asp-area="" asp-controller="Administradores" asp-action="Login">Login Adm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Administradores" asp-action="Create">Cadastro Adm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Pacientes" asp-action="Login">Login Cliente</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Pacientes" asp-action="Create">Cadastro cliente</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Farmacias" asp-action="Login">Login Funcionário</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Farmacias" asp-action="Create">Cadastro Funcionário</a>
                             </li>
                         }
                     </ul>

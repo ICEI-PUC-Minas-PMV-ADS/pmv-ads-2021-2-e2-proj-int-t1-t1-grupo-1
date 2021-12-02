@@ -19,6 +19,11 @@ namespace MinhaSaude.Controllers
             _context = context;
         }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
+
         // GET: Pacientes
         public async Task<IActionResult> Index()
         {

@@ -1396,3 +1396,11 @@ E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\pm
 E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Administradores\Edit.cshtml.g.cs
 E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Administradores\Index.cshtml.g.cs
 E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Administradores\Login.cshtml.g.cs
+D:\Vera Almeida\Curso da puc\2 periodo\Clone git\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Administradores\Create.cshtml.g.cs
+D:\Vera Almeida\Curso da puc\2 periodo\Clone git\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Administradores\Delete.cshtml.g.cs
+D:\Vera Almeida\Curso da puc\2 periodo\Clone git\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Administradores\Details.cshtml.g.cs
+D:\Vera Almeida\Curso da puc\2 periodo\Clone git\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Administradores\Edit.cshtml.g.cs
+D:\Vera Almeida\Curso da puc\2 periodo\Clone git\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Administradores\Index.cshtml.g.cs
+D:\Vera Almeida\Curso da puc\2 periodo\Clone git\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Administradores\Login.cshtml.g.cs
+D:\Vera Almeida\Curso da puc\2 periodo\Clone git\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Pacientes\Login.cshtml.g.cs
+D:\Vera Almeida\Curso da puc\2 periodo\Clone git\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\Razor\Views\Farmacias\Login.cshtml.g.cs

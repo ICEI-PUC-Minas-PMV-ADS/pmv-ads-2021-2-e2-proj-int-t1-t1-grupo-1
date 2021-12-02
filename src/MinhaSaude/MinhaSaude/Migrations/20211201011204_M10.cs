@@ -6,16 +6,16 @@ namespace MinhaSaude.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "NomeMedicamento",
-                table: "CaixinhaDeRemedios");
+            //migrationBuilder.DropColumn(
+            //    name: "NomeMedicamento",
+            //    table: "CaixinhaDeRemedios");
 
-            migrationBuilder.AddColumn<int>(
-                name: "MedicamentoId",
-                table: "CaixinhaDeRemedios",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
+            //migrationBuilder.AddColumn<int>(
+            //    name: "MedicamentoId",
+            //    table: "CaixinhaDeRemedios",
+            //    type: "int",
+            //    nullable: false,
+            //    defaultValue: 0);
 
             migrationBuilder.CreateTable(
                 name: "Administrador",
@@ -32,43 +32,43 @@ namespace MinhaSaude.Migrations
                     table.PrimaryKey("PK_Administrador", x => x.Id);
                 });
 
-            migrationBuilder.CreateIndex(
-                name: "IX_CaixinhaDeRemedios_MedicamentoId",
-                table: "CaixinhaDeRemedios",
-                column: "MedicamentoId");
+            //migrationBuilder.CreateIndex(
+            //    name: "IX_CaixinhaDeRemedios_MedicamentoId",
+            //    table: "CaixinhaDeRemedios",
+            //    column: "MedicamentoId");
 
-            migrationBuilder.AddForeignKey(
-                name: "FK_CaixinhaDeRemedios_Medicamentos_MedicamentoId",
-                table: "CaixinhaDeRemedios",
-                column: "MedicamentoId",
-                principalTable: "Medicamentos",
-                principalColumn: "Id",
-                onDelete: ReferentialAction.Cascade);
+            //migrationBuilder.AddForeignKey(
+            //    name: "FK_CaixinhaDeRemedios_Medicamentos_MedicamentoId",
+            //    table: "CaixinhaDeRemedios",
+            //    column: "MedicamentoId",
+            //    principalTable: "Medicamentos",
+            //    principalColumn: "Id",
+            //    onDelete: ReferentialAction.Cascade);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_CaixinhaDeRemedios_Medicamentos_MedicamentoId",
-                table: "CaixinhaDeRemedios");
+            //migrationBuilder.DropForeignKey(
+            //    name: "FK_CaixinhaDeRemedios_Medicamentos_MedicamentoId",
+            //    table: "CaixinhaDeRemedios");
 
             migrationBuilder.DropTable(
                 name: "Administrador");
 
-            migrationBuilder.DropIndex(
-                name: "IX_CaixinhaDeRemedios_MedicamentoId",
-                table: "CaixinhaDeRemedios");
+            //migrationBuilder.DropIndex(
+            //    name: "IX_CaixinhaDeRemedios_MedicamentoId",
+            //    table: "CaixinhaDeRemedios");
 
-            migrationBuilder.DropColumn(
-                name: "MedicamentoId",
-                table: "CaixinhaDeRemedios");
+            //migrationBuilder.DropColumn(
+            //    name: "MedicamentoId",
+            //    table: "CaixinhaDeRemedios");
 
-            migrationBuilder.AddColumn<string>(
-                name: "NomeMedicamento",
-                table: "CaixinhaDeRemedios",
-                type: "nvarchar(max)",
-                nullable: false,
-                defaultValue: "");
+            //migrationBuilder.AddColumn<string>(
+            //    name: "NomeMedicamento",
+            //    table: "CaixinhaDeRemedios",
+            //    type: "nvarchar(max)",
+            //    nullable: false,
+            //    defaultValue: "");
         }
     }
 }

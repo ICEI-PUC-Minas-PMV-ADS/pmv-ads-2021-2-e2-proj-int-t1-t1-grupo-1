@@ -4,9 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
-<h4>Administrador</h4>
+<h3>Cadastro Administrador</h3>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -23,19 +21,11 @@
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Acesso" class="control-label"></label>
-                <select asp-for="Acesso" class="form-control" asp-items="Html.GetEnumSelectList<Acesso>()"></select>
-                <span asp-validation-for="Acesso" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Salvar" class="btn btn-success" />
+                <a class="btn btn-success" asp-controller="Home" asp-action="Index">Voltar</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
