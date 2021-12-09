@@ -1,0 +1,23 @@
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: qwtDZ%Mv>j9Cb+
+    image: mcr.microsoft.com/mssql/server:2019-latest
+  minhasaude:
+    build:
+      context: E:\OneDrive - sga.pucminas.br\GitHub\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude
+      dockerfile: MinhaSaude/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: minhasaude
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\rodri\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+version: '3.4'
