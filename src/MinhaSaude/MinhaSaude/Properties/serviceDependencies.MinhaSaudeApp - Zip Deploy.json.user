@@ -1,0 +1,50 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": false,
+      "restoreTime": "2021-12-10T20:28:20.4511481Z"
+    }
+  },
+  "parameters": {
+    "MinhaSaudeApp.subscriptionId": {
+      "Name": "MinhaSaudeApp.subscriptionId",
+      "Type": "subscription",
+      "Value": "8773f33c-167f-491a-a050-735449a67404"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "8773f33c-167f-491a-a050-735449a67404"
+    },
+    "mssql1.resourceGroupLocation": {
+      "Name": "mssql1.resourceGroupLocation",
+      "Type": "location",
+      "Value": "canadacentral"
+    },
+    "MinhaSaudeApp.resourceGroupName": {
+      "Name": "MinhaSaudeApp.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "MinhaSaudeRecursos"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "8773f33c-167f-491a-a050-735449a67404"
+    },
+    "MinhaSaudeApp.resourceName": {
+      "Name": "MinhaSaudeApp.resourceName",
+      "Type": null,
+      "Value": "MinhaSaudeApp"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "MinhaSaudeRecursos"
+    },
+    "MinhaSaudeApp.resourceGroupLocation": {
+      "Name": "MinhaSaudeApp.resourceGroupLocation",
+      "Type": null,
+      "Value": "canadacentral"
+    }
+  }
+}
