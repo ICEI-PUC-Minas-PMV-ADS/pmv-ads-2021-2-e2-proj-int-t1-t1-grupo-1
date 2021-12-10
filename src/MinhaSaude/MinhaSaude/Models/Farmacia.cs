@@ -31,10 +31,10 @@ namespace MinhaSaude.Models
         public Perfil Perfil { get; set; }
 
     }
-    public enum Perfil
-    {
-        Atendente,
-        [Display(Name = "Farmacêutico")]
-        Farmaceutico
-    }
+    //public enum Perfil
+    //{
+    //    Atendente,
+    //    [Display(Name = "Farmacêutico")]
+    //    Farmaceutico
+    //}
 }

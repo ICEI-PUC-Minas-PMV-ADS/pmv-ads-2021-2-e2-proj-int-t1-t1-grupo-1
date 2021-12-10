@@ -46,6 +46,7 @@ namespace MinhaSaude.Controllers
         // GET: CaixinhaDeRemedioss/Create
         public IActionResult Create()
         {
+            ViewData["MedicamentoId"] = new SelectList(_context.Medicamentos, "Id", "Nome");
             return View();
         }
 
@@ -54,7 +55,7 @@ namespace MinhaSaude.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NomeMedicamento,Quantidade")] CaixinhaDeRemedios caixinhaDeRemedios)
+        public async Task<IActionResult> Create([Bind("NomeMedicamento,Quantidade")] CaixinhaDeRemedios caixinhaDeRemedios)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +63,7 @@ namespace MinhaSaude.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["MedicamentoId"] = new SelectList(_context.Medicamentos, "Id", "Nome", caixinhaDeRemedios.MedicamentoId);
             return View(caixinhaDeRemedios);
         }
 
@@ -86,7 +88,7 @@ namespace MinhaSaude.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NomeMedicamento,Quantidade")] CaixinhaDeRemedios caixinhaDeRemedios)
+        public async Task<IActionResult> Edit(int id, [Bind("NomeMedicamento,Quantidade")] CaixinhaDeRemedios caixinhaDeRemedios)
         {
             if (id != caixinhaDeRemedios.Id)
             {

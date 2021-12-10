@@ -4,9 +4,8 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Adicionar</h1>
+<h2>Adicionar</h2>
 
-<h4>Caixinha De Remedios</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,8 +13,11 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="MedicamentoId" class="control-label"></label>
-                <input asp-for="MedicamentoId" class="form-control" />
+                <select asp-for="MedicamentoId" class="form-control" asp-items="ViewBag.MedicamentoId"></select>
                 <span asp-validation-for="MedicamentoId" class="text-danger"></span>
+                <p>
+                    <a asp-area="" asp-controller="Medicamentos" asp-action="Create">Incluir Medicamento</a> caso não esteja na lista
+                </p>
             </div>
             <div class="form-group">
                 <label asp-for="Quantidade" class="control-label"></label>

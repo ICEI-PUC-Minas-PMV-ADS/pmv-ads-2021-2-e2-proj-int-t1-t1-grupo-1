@@ -123,7 +123,7 @@ namespace MinhaSaude.Controllers
         [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Email,Senha,Acesso")] Administrador administrador)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Email,NomeFarmacia,Senha,Perfil")] Administrador administrador)
         {
             if (ModelState.IsValid)
             {
@@ -156,7 +156,7 @@ namespace MinhaSaude.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Email,Senha,Acesso")] Administrador administrador)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,NomeFarmacia,Senha,Perfil")] Administrador administrador)
         {
             if (id != administrador.Id)
             {
