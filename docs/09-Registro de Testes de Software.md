@@ -1,16 +1,21 @@
 # Registro de Testes de Software
 
-|**Caso de Teste**|**CT-01 – Validar tela de login**|
+**Caso de Teste**|**CT-01 – Validar tela de login**|
 |-----------------|---------------------------------|
-|**Requisitos Associados**|RF-14 - O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar novo usuário ou recuperar senha.|
+|**Requisitos Associados**|RF-14 - O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar novo usuário.|
 |**Objetivo do Teste**|Verificar se os campos do formulário estão sendo exibidos corretamente.|
-|**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página de login; Preencher CPF/ CRF no campo indicado; Preencher senha no campo indicado; Selecionar tipo de usuário (“paciente”/“funcionário da farmácia”); Clicar em ‘Login’.|
-|**Critérios de Êxito**|O campo CPF/CRF deve verificar se o usuário digitou uma informação válida; O texto preenchido no campo de senha deve ser oculto; Não deve ser permitido selecionar mais de um tipo de usuário; eAo clicar em ‘login’ será direcionado para home.|
+|**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página de login; Preencher e-mail no campo indicado; Preencher senha no campo indicado; Clicar em ‘Login’.|
+|**Critérios de Êxito**|O campo email deve verificar se o usuário digitou uma informação válida; O texto preenchido no campo de senha deve ser oculto; Ao clicar em ‘login’ será direcionado para home.|
+|**Resultado**|A Aplicação se comportou conforme esperado.|
+|Imagem 1| ![Tela de login](img/CT01-01.jpg)|
+|Imagem 2| ![Tela de login](img/CT01-02.jpg)|
+|Imagem 3| ![Tela de login](img/CT01-03.jpg)|
+|Imagem 4| ![Tela de login](img/CT01-04.jpg)|
 
 
 |**Caso de Teste**|**CT-02 – Cadastro de novo usuário**|
 |-----------------|---------------------------------|
-|**Requisitos Associados**|RF-04 - O sistema deve apresentar 3 formulários de cadastro para novos usuários (um para paciente, outro para farmacêutico e outro para atendente da farmácia) contendo: Nome, CPF/CRF, data de nascimento (apenas do paciente), telefone, e-mail, senha.|
+|**Requisitos Associados**|RF-04 - O sistema deve apresentar 3 formulários de cadastro para novos usuários (um para cliente, outro para administrador e outro para atendente da farmácia) contendo: Nome, e-mail, nome da farmácia, senha.|
 |**Objetivo do Teste**|Verificar se os campos do formulário de cadastrar novo usuário está validando os campos corretamente conforme seu respectivo dado.|
 |**Passos**|Acessar a primeira tela do site pelo browser, conforme CT-01; Clicar na opção “Cadastro Paciente”, "Cadastro Atendente" ou "Cadastro Farmacêutico"; Preencher os campos necessários do formulário; Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Finalizar cadastro”.|
 |**Critérios de Êxito**|Na primeira tela do fluxo de cadastro, apenas uma opção pode ser selecionada (“Cadastro Paciente”/”Cadastro Atendente”/"Cadastro Farmacêutico") para direcionar para a tela correta de cada usuário; Na segunda tela do fluxo o campo CPF/CRF deve validar se o usuário digitou 11 ou 6 dígitos e se foi só números; Ainda na segunda tela, também deve ser verificado se o e-mail digitado é válido; nos campos de senha devem validar se a primeira senha digitada corresponde à segunda; Ainda nesta tela, os campos de senha devem manter a informação digitada oculta; Ao clicar em concluir cadastro, deve aparecer a mensagem de Cadastro concluído com sucesso!; Ao clicar em Fazer Login, o usuário deve ser direcionado para a página de Login.|
