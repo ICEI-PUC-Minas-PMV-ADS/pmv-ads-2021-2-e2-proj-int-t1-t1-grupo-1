@@ -7606,28 +7606,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rodri\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\vlgal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
+      "projectUniqueName": "D:\\Vera Almeida\\Curso da puc\\2 periodo\\Clone git\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
       "projectName": "MinhaSaude",
-      "projectPath": "E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
-      "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-      "outputPath": "E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\obj\\",
+      "projectPath": "D:\\Vera Almeida\\Curso da puc\\2 periodo\\Clone git\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
+      "packagesPath": "C:\\Users\\vlgal\\.nuget\\packages\\",
+      "outputPath": "D:\\Vera Almeida\\Curso da puc\\2 periodo\\Clone git\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\vlgal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7705,7 +7697,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
