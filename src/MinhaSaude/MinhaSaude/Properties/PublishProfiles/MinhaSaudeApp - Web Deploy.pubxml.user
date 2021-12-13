@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbnAgGbQeoEWxrg1zEWpgbAAAAAACAAAAAAAQZgAAAAEAACAAAAC28hJYzJYRgte1TdbuIjzaO0d7R8MHuOxUNxyPgYNshQAAAAAOgAAAAAIAACAAAAC7IgqK9UKZ43bigraX9IL2flJveV44YuV3i0p26/O5Z4AAAAA+yZorNAEQIOQsufzWexekHuCpbZ0dt1k3xaj0iSY8GMuIttenlDG67L4cIAZD2T52S7699ilIc5c+XknR3zzh3K5TzWAuXpATFPy4PHHKJR9Ey8SG0ZCWxHEiEtWtskwjYVL+azmmVYxZMgyKCtPnEf8Oqkybl8YdB1qHm6jvB0AAAAB3vV70fIAJbGppuTmUL9PlNCu8nWoIyLHi5XX9WcYp4JR0LA7Gg16fSfvsk7wbkzUxxqOIE0o8YfJpp+uTlaP0</EncryptedPassword>
+    <History>False|2021-12-13T18:17:27.3355791Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:msdbserver-minhasaude.database.windows.net,1433%3bInitial Catalog=MS_db%3bUser Id=adse2t1%40msdbserver-minhasaude%3bPassword=qwtDZ%25Mv&gt;j9Cb+</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MinhaSaude.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:msdbserver-minhasaude.database.windows.net,1433%3bInitial Catalog=MS_db%3bUser Id=adse2t1%40msdbserver-minhasaude%3bPassword=qwtDZ%25Mv&gt;j9Cb+</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

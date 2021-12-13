@@ -1875,3 +1875,4 @@ E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\MinhaSaude.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\ref\MinhaSaude.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\MinhaSaude.pdb
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\MinhaSaude.genruntimeconfig.cache
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Debug\net5.0\MinhaSaude.csproj.AssemblyReference.cache
