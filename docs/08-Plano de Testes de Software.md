@@ -6,10 +6,10 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
   
 |**Caso de Teste**|**CT-01 – Validar tela de login**|
 |-----------------|---------------------------------|
-|**Requisitos Associados**|RF-14 - O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar novo usuário ou recuperar senha.|
+|**Requisitos Associados**|RF-14 - O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar novo usuário.|
 |**Objetivo do Teste**|Verificar se os campos do formulário estão sendo exibidos corretamente.|
-|**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página de login; Preencher CPF/ CRF no campo indicado; Preencher senha no campo indicado; Selecionar tipo de usuário (“paciente”/“funcionário da farmácia”); Clicar em ‘Login’.|
-|**Critérios de Êxito**|O campo CPF/CRF deve verificar se o usuário digitou uma informação válida; O texto preenchido no campo de senha deve ser oculto; Não deve ser permitido selecionar mais de um tipo de usuário; eAo clicar em ‘login’ será direcionado para home.|
+|**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página de login; Preencher e-mail no campo indicado; Preencher senha no campo indicado; Clicar em ‘Login’.|
+|**Critérios de Êxito**|O campo email deve verificar se o usuário digitou uma informação válida; O texto preenchido no campo de senha deve ser oculto; Ao clicar em ‘login’ será direcionado para home.|
 
 
 |**Caso de Teste**|**CT-02 – Cadastro de novo usuário**|
