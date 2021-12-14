@@ -68,7 +68,7 @@ namespace MinhaSaude.Controllers
             }
             else
             {
-                ViewBag.Message = "Administrador válido!";
+                ViewBag.Message = "Usuário válido!";
                 return View();
             }
         }

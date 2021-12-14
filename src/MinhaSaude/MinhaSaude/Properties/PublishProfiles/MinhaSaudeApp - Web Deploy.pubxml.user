@@ -6,17 +6,12 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbnAgGbQeoEWxrg1zEWpgbAAAAAACAAAAAAAQZgAAAAEAACAAAAC28hJYzJYRgte1TdbuIjzaO0d7R8MHuOxUNxyPgYNshQAAAAAOgAAAAAIAACAAAAC7IgqK9UKZ43bigraX9IL2flJveV44YuV3i0p26/O5Z4AAAAA+yZorNAEQIOQsufzWexekHuCpbZ0dt1k3xaj0iSY8GMuIttenlDG67L4cIAZD2T52S7699ilIc5c+XknR3zzh3K5TzWAuXpATFPy4PHHKJR9Ey8SG0ZCWxHEiEtWtskwjYVL+azmmVYxZMgyKCtPnEf8Oqkybl8YdB1qHm6jvB0AAAAB3vV70fIAJbGppuTmUL9PlNCu8nWoIyLHi5XX9WcYp4JR0LA7Gg16fSfvsk7wbkzUxxqOIE0o8YfJpp+uTlaP0</EncryptedPassword>
-    <History>False|2021-12-13T18:17:27.3355791Z;</History>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyQOziHgoGEmJkhUPL7fe8wAAAAACAAAAAAAQZgAAAAEAACAAAAAUdP/+EYuLtgLSoOVRu5LY1maJRM6+lfGiXfFkaCZkcAAAAAAOgAAAAAIAACAAAABS/qIJdxJk4bGgV6YMnXcj6rMw8CrsnZFspt/tjzixroAAAAAcZozWiR96RgEptnJ/ufqao/7bkzLgU9R0++dOcSnerA3S9UZrX/VDXvkv4BvbHvJVscL027omIyHg9Gc1HZ0Vzt7Qsj+tER1lUxxmTHTfhYQy8j3Yx58XQmqJk3SOdxIslPPilqonWHvvEs9D5Sno0M3JwlD4oRG2Tmr0dYYITkAAAADmeDUOWuSZgrMgDf/XgnlZRVV3Nv2hLGtZjV3DBDAzPh75HnswLhgehmS49m+TLDilff7CsXmOf1ppFp4YdjYa</EncryptedPassword>
+    <History>True|2021-12-14T02:05:56.1649804Z;True|2021-12-13T22:09:48.1751744-03:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="DefaultConnection">
       <Value>Data Source=tcp:msdbserver-minhasaude.database.windows.net,1433%3bInitial Catalog=MS_db%3bUser Id=adse2t1%40msdbserver-minhasaude%3bPassword=qwtDZ%25Mv&gt;j9Cb+</Value>
     </DestinationConnectionStrings>
-  </ItemGroup>
-  <ItemGroup>
-    <EFMigrations Include="MinhaSaude.Data.ApplicationDbContext">
-      <Value>Data Source=tcp:msdbserver-minhasaude.database.windows.net,1433%3bInitial Catalog=MS_db%3bUser Id=adse2t1%40msdbserver-minhasaude%3bPassword=qwtDZ%25Mv&gt;j9Cb+</Value>
-    </EFMigrations>
   </ItemGroup>
 </Project>
