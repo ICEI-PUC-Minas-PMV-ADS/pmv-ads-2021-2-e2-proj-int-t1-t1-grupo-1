@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JjUnvfGejWe9vu3cLLftLfnfdsR1o4mxJYYKBuu70qfoN31LJA371drYLwOU18GRRMuSk2kmNRNDWEOmbBFlpw==",
+  "dgSpecHash": "DXamz6modhQ9TzuistI7Lf57F3BZ0N8xNjSpP0Yp6WR0OCpBzCDdqqTsWH2aILSW8IUhIps5ixYMVEf+rhtEgA==",
   "success": true,
   "projectFilePath": "E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.12\\microsoft.aspnetcore.razor.language.5.0.12.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\rodri\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\microsoft.codeanalysis.csharp.3.8.0.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\3.8.0\\microsoft.codeanalysis.csharp.workspaces.3.8.0.nupkg.sha512",
