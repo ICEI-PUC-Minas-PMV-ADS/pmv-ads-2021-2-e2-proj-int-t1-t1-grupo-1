@@ -15,10 +15,16 @@
 
 |**Caso de Teste**|**CT-02 – Cadastro de novo usuário**|
 |-----------------|---------------------------------|
-|**Requisitos Associados**|RF-04 - O sistema deve apresentar 3 formulários de cadastro para novos usuários (um para cliente, outro para administrador e outro para atendente da farmácia) contendo: Nome, e-mail, nome da farmácia, senha.|
+|**Requisitos Associados**|RF-04 - O sistema deve apresentar 1 formulário de cadastro para novo usuário com 3 perfis (um para cliente, outro para administrador e outro para o funcionário da farmácia) contendo: Nome, e-mail, nome da farmácia (se funcionário), senha.|
 |**Objetivo do Teste**|Verificar se os campos do formulário de cadastrar novo usuário está validando os campos corretamente conforme seu respectivo dado.|
-|**Passos**|Acessar a primeira tela do site pelo browser, conforme CT-01; Clicar na opção “Cadastro Paciente”, "Cadastro Atendente" ou "Cadastro Farmacêutico"; Preencher os campos necessários do formulário; Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Finalizar cadastro”.|
-|**Critérios de Êxito**|Na primeira tela do fluxo de cadastro, apenas uma opção pode ser selecionada (“Cadastro Paciente”/”Cadastro Atendente”/"Cadastro Farmacêutico") para direcionar para a tela correta de cada usuário; Na segunda tela do fluxo o campo CPF/CRF deve validar se o usuário digitou 11 ou 6 dígitos e se foi só números; Ainda na segunda tela, também deve ser verificado se o e-mail digitado é válido; nos campos de senha devem validar se a primeira senha digitada corresponde à segunda; Ainda nesta tela, os campos de senha devem manter a informação digitada oculta; Ao clicar em concluir cadastro, deve aparecer a mensagem de Cadastro concluído com sucesso!; Ao clicar em Fazer Login, o usuário deve ser direcionado para a página de Login.|
+|**Passos**|Acessar a primeira tela do site pelo browser, conforme CT-01; Clicar na opção “Cadastro”; Preencher os campos necessários do formulário; Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar”.|
+|**Critérios de Êxito**|Na tela de cadastro, ofuncionário da farmácia deve preencher todos os campos (Nome, Email, Nome da Farmácia, Senha), já o cliente e o admin devem preencher somente os campos "Nome", "Email" e "Senha", conforme indicado; apenas uma opção de perfil deve ser selecionada (“Cliente”/”Admin”/"Funcionário") para que tenha um direcionamento correto após o login de cada usuário; também deve ser verificado se o e-mail digitado é válido; Ainda nesta tela, o campo de senha deve manter a informação digitada oculta; Ao clicar em Salvar, o usuário deve ser direcionado para a página de Login.|
+|Imagem 1| ![Tela de Cadastro de novo usuário](img/CT02-01.png)|
+|Imagem 2| ![Tela de Cadastro de novo usuário](img/CT02-02.png)|
+|Imagem 3| ![Tela de Cadastro de novo usuário](img/CT02-03.png)|
+|Imagem 4| ![Tela de Cadastro de novo usuário](img/CT02-04.png)|
+|Imagem 5| ![Tela de Cadastro de novo usuário](img/CT02-05.png)|
+|Imagem 6 (Direcionamento após conclusão do cadastro)| ![Tela de Cadastro de novo usuário](img/CT02-06.png)|
 
 
 |**Caso de Teste**|**CT-03 – Cadastro de Nova Senha**|
