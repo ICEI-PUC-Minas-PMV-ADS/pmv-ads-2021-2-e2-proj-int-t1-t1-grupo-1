@@ -7,7 +7,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyQOziHgoGEmJkhUPL7fe8wAAAAACAAAAAAAQZgAAAAEAACAAAAAUdP/+EYuLtgLSoOVRu5LY1maJRM6+lfGiXfFkaCZkcAAAAAAOgAAAAAIAACAAAABS/qIJdxJk4bGgV6YMnXcj6rMw8CrsnZFspt/tjzixroAAAAAcZozWiR96RgEptnJ/ufqao/7bkzLgU9R0++dOcSnerA3S9UZrX/VDXvkv4BvbHvJVscL027omIyHg9Gc1HZ0Vzt7Qsj+tER1lUxxmTHTfhYQy8j3Yx58XQmqJk3SOdxIslPPilqonWHvvEs9D5Sno0M3JwlD4oRG2Tmr0dYYITkAAAADmeDUOWuSZgrMgDf/XgnlZRVV3Nv2hLGtZjV3DBDAzPh75HnswLhgehmS49m+TLDilff7CsXmOf1ppFp4YdjYa</EncryptedPassword>
-    <History>True|2021-12-14T13:54:03.7856557Z;True|2021-12-13T23:05:56.1649804-03:00;True|2021-12-13T22:09:48.1751744-03:00;</History>
+    <History>True|2021-12-14T22:53:20.8367446Z;True|2021-12-14T10:54:03.7856557-03:00;True|2021-12-13T23:05:56.1649804-03:00;True|2021-12-13T22:09:48.1751744-03:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="DefaultConnection">
