@@ -3,4 +3,7 @@
   <parameter name="IIS Web Application Name" description="" value="MinhaSaudeApp" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Vera\ Almeida\\Curso\ da\ puc\\2\ periodo\\Clone\ git\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
   </parameter>
+  <parameter name="MinhaSaude.Data.ApplicationDbContext" description="" value="Data Source=tcp:msdbserver-minhasaude.database.windows.net,1433;Initial Catalog=MS_db;User Id=adse2t1@msdbserver-minhasaude;Password=qwtDZ%Mv&gt;j9Cb+" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\MinhaSaude\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
 </parameters>

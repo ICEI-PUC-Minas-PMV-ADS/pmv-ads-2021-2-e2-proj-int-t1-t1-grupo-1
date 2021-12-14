@@ -6,12 +6,17 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyQOziHgoGEmJkhUPL7fe8wAAAAACAAAAAAAQZgAAAAEAACAAAAAUdP/+EYuLtgLSoOVRu5LY1maJRM6+lfGiXfFkaCZkcAAAAAAOgAAAAAIAACAAAABS/qIJdxJk4bGgV6YMnXcj6rMw8CrsnZFspt/tjzixroAAAAAcZozWiR96RgEptnJ/ufqao/7bkzLgU9R0++dOcSnerA3S9UZrX/VDXvkv4BvbHvJVscL027omIyHg9Gc1HZ0Vzt7Qsj+tER1lUxxmTHTfhYQy8j3Yx58XQmqJk3SOdxIslPPilqonWHvvEs9D5Sno0M3JwlD4oRG2Tmr0dYYITkAAAADmeDUOWuSZgrMgDf/XgnlZRVV3Nv2hLGtZjV3DBDAzPh75HnswLhgehmS49m+TLDilff7CsXmOf1ppFp4YdjYa</EncryptedPassword>
-    <History>True|2021-12-14T02:05:56.1649804Z;True|2021-12-13T22:09:48.1751744-03:00;</History>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbnAgGbQeoEWxrg1zEWpgbAAAAAACAAAAAAAQZgAAAAEAACAAAAAhwnrkiSVRxfo4OX+JA1lRAfwGr2A12kJwkHAsuuWn0wAAAAAOgAAAAAIAACAAAAC+qaIVLaRVPhX9k0GudzPPqqRTbehnKyDMtVll9lGT2IAAAACGLB8FJC/paFoO9zLsjH7/oRkEsVXJc31HU7dFCdwXBfKVjNuL4mkNwHcOTHnndkXIAOMw6RIc8PDfy+zITIlDHSZzzyCPkK6NyfcJEjpKx58/2yuUhlCxYdvLH3ZVSOqTzpcIlggZNkyZ8ZYuKKM3RHFtsWqtsCKtuej9ewG8d0AAAADESJ6ssVsR6yUxT+6UPg+oDXcyI6O9LNo5C956+dbXwdMLRMK9cZZK/4Yrha3eIKPrvvEqLyMIATKuauDzcyIx</EncryptedPassword>
+    <History>True|2021-12-14T19:42:58.6758145Z;</History>
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="DefaultConnection">
       <Value>Data Source=tcp:msdbserver-minhasaude.database.windows.net,1433%3bInitial Catalog=MS_db%3bUser Id=adse2t1%40msdbserver-minhasaude%3bPassword=qwtDZ%25Mv&gt;j9Cb+</Value>
     </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MinhaSaude.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:msdbserver-minhasaude.database.windows.net,1433%3bInitial Catalog=MS_db%3bUser Id=adse2t1%40msdbserver-minhasaude%3bPassword=qwtDZ%25Mv&gt;j9Cb+</Value>
+    </EFMigrations>
   </ItemGroup>
 </Project>

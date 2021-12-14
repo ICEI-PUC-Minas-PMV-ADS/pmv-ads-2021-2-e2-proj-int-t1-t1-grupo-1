@@ -19,6 +19,6 @@
     <WebStackScaffolding_DbContextTypeFullName>MinhaSaude.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>D:\Vera Almeida\Curso da puc\2 periodo\Clone git\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\src\MinhaSaude\MinhaSaude\Properties\PublishProfiles\MinhaSaudeApp - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>E:\MinhaSaude\src\MinhaSaude\MinhaSaude\Properties\PublishProfiles\MinhaSaudeApp - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
