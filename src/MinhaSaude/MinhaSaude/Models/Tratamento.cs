@@ -27,12 +27,12 @@ namespace MinhaSaude.Models
         [Required(ErrorMessage ="É necessário informar a data de início!")]
         public DateTime DataInicio { get; set; }
 
-        [Display(Name ="Duração (em dias)")]
+        [Display(Name = "Duração (em dias)")]
         [Required(ErrorMessage = "É necessário informar a duracao do tratamento!")]
         public int Duracao { get; set; }
 
         [Display(Name = "Frequência de uso (vezes por dia)")]
-        [Required(ErrorMessage ="É necessário informar a frequência de uso!")]
+        [Required(ErrorMessage = "É necessário informar a frequência de uso!")]
         public int FrequenciaUso { get; set; }
     }
 }

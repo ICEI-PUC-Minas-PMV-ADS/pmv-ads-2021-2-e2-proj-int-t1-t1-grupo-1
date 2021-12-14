@@ -22,6 +22,7 @@ namespace MinhaSaude.Models
         [ForeignKey("MedicamentoId")]
         public Medicamento Medicamento { get; set; }
 
+        [Display(Name = "Quantidade (comprimidos, cápsulas, mL, etc)")]
         public int Quantidade { get; set; }
     }
 }

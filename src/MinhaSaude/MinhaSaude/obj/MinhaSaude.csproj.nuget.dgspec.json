@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Vera Almeida\\Curso da puc\\2 periodo\\Clone git\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj": {}
+    "E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj": {}
   },
   "projects": {
-    "D:\\Vera Almeida\\Curso da puc\\2 periodo\\Clone git\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj": {
+    "E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vera Almeida\\Curso da puc\\2 periodo\\Clone git\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
+        "projectUniqueName": "E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
         "projectName": "MinhaSaude",
-        "projectPath": "D:\\Vera Almeida\\Curso da puc\\2 periodo\\Clone git\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
-        "packagesPath": "C:\\Users\\vlgal\\.nuget\\packages\\",
-        "outputPath": "D:\\Vera Almeida\\Curso da puc\\2 periodo\\Clone git\\pmv-ads-2021-2-e2-proj-int-t1-t1-grupo-1\\src\\MinhaSaude\\MinhaSaude\\obj\\",
+        "projectPath": "E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\MinhaSaude.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "E:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vlgal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -44,6 +50,10 @@
               "target": "Package",
               "version": "[4.0.2, )"
             },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.12, )"
@@ -56,13 +66,29 @@
               "target": "Package",
               "version": "[5.0.12, )"
             },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -93,7 +119,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

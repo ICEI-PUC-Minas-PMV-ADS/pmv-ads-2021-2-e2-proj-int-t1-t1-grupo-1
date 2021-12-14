@@ -22,7 +22,8 @@ namespace MinhaSaude.Controllers
         // GET: CaixinhaDeRemedioss
         public async Task<IActionResult> Index()
         {
-            return View(await _context.CaixinhaDeRemedioss.ToListAsync());
+            var applicationDbContext = _context.CaixinhaDeRemedioss.Include(t => t.Medicamento);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: CaixinhaDeRemedioss/Details/5
@@ -34,6 +35,7 @@ namespace MinhaSaude.Controllers
             }
 
             var caixinhaDeRemedios = await _context.CaixinhaDeRemedioss
+                .Include(c => c.Medicamento)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (caixinhaDeRemedios == null)
             {
@@ -55,7 +57,7 @@ namespace MinhaSaude.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("NomeMedicamento,Quantidade")] CaixinhaDeRemedios caixinhaDeRemedios)
+        public async Task<IActionResult> Create([Bind("MedicamentoId,Quantidade")] CaixinhaDeRemedios caixinhaDeRemedios)
         {
             if (ModelState.IsValid)
             {
@@ -80,6 +82,7 @@ namespace MinhaSaude.Controllers
             {
                 return NotFound();
             }
+            ViewData["MedicamentoId"] = new SelectList(_context.Medicamentos, "Id", "Nome", caixinhaDeRemedios.MedicamentoId);
             return View(caixinhaDeRemedios);
         }
 
@@ -88,7 +91,7 @@ namespace MinhaSaude.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("NomeMedicamento,Quantidade")] CaixinhaDeRemedios caixinhaDeRemedios)
+        public async Task<IActionResult> Edit(int id, [Bind("MedicamentoId,Quantidade")] CaixinhaDeRemedios caixinhaDeRemedios)
         {
             if (id != caixinhaDeRemedios.Id)
             {
@@ -115,6 +118,7 @@ namespace MinhaSaude.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["MedicamentoId"] = new SelectList(_context.Medicamentos, "Id", "Nome", caixinhaDeRemedios.MedicamentoId);
             return View(caixinhaDeRemedios);
         }
 
