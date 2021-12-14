@@ -7,49 +7,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="reset.css" class="rel">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title>Perfil Paciente</title>
   <style>
-   h1{
-     background-color: antiquewhite;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-   }
+    h1 {
+      background-color: antiquewhite;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   </style>
 </head>
 <header>
   <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #83ACF2;">
-    <div >
-      <img class="img-fluid" alt="Responsive image" src="img/logosemtitulo.png" width="70" href="home.html">
-      <a class="navbar-brand" href="#">Minha Saúde</a>
+    <img class="img-fluid detailImage" src="img/logosemtitulo.png" width="70" /> 
+    <div class="col ">
+      <div class="" href="#">Minha Saúde</div>
+      <div class="texto mt-0">
+        <?= date('d-m-Y') ?>
+      </div>
+      <p6 class="texto" id="timestamp"></p6>
     </div>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Paciente</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Medicamentos
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Cadastrar</a>
-          <a class="dropdown-item" href="#">Procurar</a>
-          <a class="dropdown-item" href="#">Alterar</a>
-        </div>
-  
-    </ul>
-  </div>
-</nav>
+    <strong class="p-2">
+
+
+    </strong>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="d-flex justify-content-end">
+      <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home <span
+                class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Administradores" asp-action="Login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Administradores" asp-action="Create">Cadastro</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>
 
 </br>
@@ -87,17 +94,19 @@
 
 
 <!--fixed-bottom-->
-  <footer class="bg-light text-center text-lg-start position-absolute w-100">
-    <!-- Copyright -->
-    <div class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2021 Copyright:
-      <a class="text-dark" href="https://minhasaude.com.br/">Minha Saúde</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
+<footer class="border-top footer text-muted">
+  <div class="container">
+      &copy; 2021 - MinhaSaude - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+  </div>
+</footer>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
 </html>
