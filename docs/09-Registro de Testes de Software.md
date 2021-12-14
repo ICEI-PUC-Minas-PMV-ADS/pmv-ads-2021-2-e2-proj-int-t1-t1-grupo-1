@@ -100,6 +100,10 @@
 |**Objetivo do Teste**|Verificar o cadastro de quantidade, data de validade e lote na tela de CAIXINHA|
 |**Passos**|Acessar o navegador; Informar o endereço do Site; Realizar o login; Acessar a seção Caixinha de Remédios; Selecionar o Medicamento desejado e clicar em “Alterar quantidade”; Nos campos QUANTIDADE, DATA DE VALIDADE E LOTE DO MEDICAMENTO inserir dados válidos; Clicar em salvar.|
 |**Critérios de Êxito**|Após clicar em salvar, deve retornar automaticamente para a tela Caixinha de Remédios;Ao retornar para a Caixinha de Remédios, Cadastrar a quantidade, data de validade e lote e consultá-lo posteriormente pelo menu de buscas de produtos.|
+|Imagem 1| ![Perfil e Caixinha de Remédios](https://user-images.githubusercontent.com/64924032/146059071-5d059665-1928-4d9f-95dd-c8f8233d79dc.png))|
+|Imagem 2| ![CAixinha de Remédios e botão adicionar medicamento](https://user-images.githubusercontent.com/64924032/146059168-1d854c47-7605-4d8c-9a12-5a57402e78b7.png)|
+|Imagem 3| ![Tela Cadastro de novo medicamento na caixinha de remédios](https://user-images.githubusercontent.com/64924032/146057603-b04c0ae6-2d07-4c08-a896-5048b942eb8e.png)|
+|Imagem 4| ![Cadastro de novo medicamento na caixinha de remédios](https://user-images.githubusercontent.com/64924032/146059500-e71545fd-7553-4920-b259-1c5ccc52e175.png)|
 
 
 
