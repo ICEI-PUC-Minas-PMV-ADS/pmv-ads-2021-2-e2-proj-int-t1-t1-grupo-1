@@ -48,8 +48,7 @@
 |Imagem 3| ![Tela de Perfil Cliente](img/CT03-03.png)|
 |Imagem 4| ![Tela de Perfil Cliente](img/CT03-04.png)|
 |Imagem 5| ![Tela de Perfil Cliente](img/CT03-05.png)|
-|Imagem 5| ![Tela de Funcionário Perfil](https://user-images.githubusercontent.com/64924032/146070274-39de9592-1613-42bc-aa09-5586b5324921.png)|
-|Imagem 5| ![Tela de Funcionários - Tela de medicamentos](https://user-images.githubusercontent.com/64924032/146070636-bc24d5db-5158-44e3-afe4-fbf5dbcf3874.png)|
+
 
 
 
@@ -61,6 +60,9 @@
 |**Objetivo do Teste**|Verificar se após o login é exibido a tela principal do perfil.|
 |**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página principal; Clicar em Login; Preencher o CPF e a senha; Verificar a página principal do perfil.|
 |**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades: Botão; Botão “Medicamentos”; Botão “Importar/Exportar arquivo”.|
+|Imagem 1| ![Fazendo login como funcionário](https://user-images.githubusercontent.com/64924032/146071092-e7aa99cd-e1b2-4ce8-b753-ed675692fd35.png)|
+|Imagem 1| ![Tela de Funcionário Perfil](https://user-images.githubusercontent.com/64924032/146070274-39de9592-1613-42bc-aa09-5586b5324921.png)|
+|Imagem 2| ![Tela de Funcionários - Tela de medicamentos](https://user-images.githubusercontent.com/64924032/146070636-bc24d5db-5158-44e3-afe4-fbf5dbcf3874.png)|
 
 
 
