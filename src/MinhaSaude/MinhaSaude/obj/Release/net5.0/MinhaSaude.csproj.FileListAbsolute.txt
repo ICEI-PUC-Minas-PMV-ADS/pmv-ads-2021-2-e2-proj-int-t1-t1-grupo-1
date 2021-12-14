@@ -475,6 +475,9 @@ E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\Razor\Views\Receitas\
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\Razor\Views\Receitas\Details.cshtml.g.cs
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\Razor\Views\Receitas\Edit.cshtml.g.cs
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\Razor\Views\Receitas\Index.cshtml.g.cs
+<<<<<<< Updated upstream
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\bin\Release\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+=======
+>>>>>>> Stashed changes

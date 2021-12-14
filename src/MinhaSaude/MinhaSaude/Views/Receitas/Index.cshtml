@@ -7,11 +7,16 @@
 <h1>Index</h1>
 
 <p>
+<<<<<<< Updated upstream
     <a asp-action="Create">Importar Receita</a>
+=======
+    <a asp-action="Create">Create New</a>
+>>>>>>> Stashed changes
 </p>
 <table class="table">
     <thead>
         <tr>
+<<<<<<< Updated upstream
             <th>
                 @Html.DisplayNameFor(model => model.Usuario.Nome)
             </th>
@@ -21,12 +26,16 @@
             <th>
                 @Html.DisplayNameFor(model => model.NomeArquivo)
             </th>
+=======
+            <th></th>
+>>>>>>> Stashed changes
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
+<<<<<<< Updated upstream
                 @Html.DisplayFor(modelItem => item.Usuario.Nome)
             </td>
             <td>
@@ -37,6 +46,8 @@
             </td>
 
             <td>
+=======
+>>>>>>> Stashed changes
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>

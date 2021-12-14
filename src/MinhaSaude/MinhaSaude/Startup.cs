@@ -31,7 +31,7 @@ namespace MinhaSaude
         {
             //adicionando as configurações do banco de dados de models aplicationdbcontext
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+            options.UseSqlServer(Configuration.GetConnectionString("DevConnection"))
             );
 
             services.Configure<CookiePolicyOptions>(options =>
