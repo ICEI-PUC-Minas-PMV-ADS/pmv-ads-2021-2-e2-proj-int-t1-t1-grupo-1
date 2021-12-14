@@ -69,11 +69,11 @@
 |**Objetivo do Teste**|Verificar se as opções de cadastro estão sendo exibidas e executadas corretamente.|
 |**Passos**|Na tela Perfil, clicar no botão “Tratamentos”; Na tela tratamentos, clicar no botão “Novo Tratamento”; Na opção Medicamento, ao digitar deverá permitir a expansão, caso o medicamento já esteja no banco de dados; Selecionar o ‘Nome do Medicamento’; Preencher os campos ‘Data Início’, ‘Duração’, ‘Frequência de Uso’ e ‘Anotações’;  Campo ‘Anotações’ não precisará ser obrigatório; e Clicar no botão ‘Enviar’ para salvar o cadastro.|
 |**Critérios de Êxito**|Os campos para preenchimento deverão permitir a entrada de dados; O preenchimento do nome do medicamento deve funcionar, caso o medicamento esteja cadastrado no banco de dados; O usuário deverá conseguir salvar as informações inseridas mesmo com o campo ‘Anotações’ em branco; Após clicar em “Enviar”, deve-se retornar automaticamente para a tela “Tratamentos”; O tratamento cadastrado deve estar relacionado nos tratamentos desta tela; A bula deve estar disponível para leitura.|
-|Imagem 1| ![Perfil e Tratamento](![image](https://user-images.githubusercontent.com/64924032/146053665-9729aedc-e51b-41ef-af0c-4aa0443c2015.png))|
-|Imagem 2| ![Botão adicionar tratamento](![image](https://user-images.githubusercontent.com/64924032/146053731-93ce5759-5cfc-4124-97b8-f3190fa34fe6.png))|
-|Imagem 3| ![Tela de Perfil Cliente](![image](https://user-images.githubusercontent.com/64924032/146054004-9052816b-ba4f-48cd-8b99-911df35d2c6f.png))|
-|Imagem 4| ![Tela de Perfil Cliente](![image](https://user-images.githubusercontent.com/64924032/146054161-125cc9bd-e964-4fe4-be23-20de4ed4a100.png))|
-|Imagem 5| ![Tela de Perfil Cliente](![image](https://user-images.githubusercontent.com/64924032/146054388-397127b8-40d9-44cd-89d6-f5557846d028.png))|
+|Imagem 1| ![Perfil e Tratamento](https://user-images.githubusercontent.com/64924032/146053665-9729aedc-e51b-41ef-af0c-4aa0443c2015.png)|
+|Imagem 2| ![Botão adicionar tratamento](https://user-images.githubusercontent.com/64924032/146053731-93ce5759-5cfc-4124-97b8-f3190fa34fe6.png)|
+|Imagem 3| ![Tela de Perfil Cliente](https://user-images.githubusercontent.com/64924032/146054004-9052816b-ba4f-48cd-8b99-911df35d2c6f.png)|
+|Imagem 4| ![Tela de Perfil Cliente](https://user-images.githubusercontent.com/64924032/146054161-125cc9bd-e964-4fe4-be23-20de4ed4a100.png)|
+|Imagem 5| ![Tela de Perfil Cliente](https://user-images.githubusercontent.com/64924032/146054388-397127b8-40d9-44cd-89d6-f5557846d028.png)|
 
 
 
