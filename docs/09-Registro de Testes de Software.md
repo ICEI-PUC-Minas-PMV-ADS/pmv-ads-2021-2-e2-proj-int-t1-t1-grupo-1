@@ -42,12 +42,15 @@
 |**Perfil**|Cliente|
 |**Objetivo do Teste**|Verificar se após o login é exibido a tela principal do perfil logado|
 |**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página principal; Clicar em Login; Preencher o email e a senha; Verificar a página principal do perfil.|
-|**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades no menu: "Home", "Cliente" e "Sair". Ao clicar em "Cliente", deve aparecer o perfil do cliente com as seguintes funcionalidades: Botão “Tratamentos”; Botão “Caixinha de Remédios”; Botão “Pesquisar preços (Em breve)”; Botão “Visualizar Receitas (Em breve)” e Botão “Importar/Exportar Receita (Em breve)”; Em "Tratamento", é apresentada a lista de tratamentos e a opção "Adicionar Tratamento"; Em "caixinha de Remédios", é apresentada uma lista de medicamentos cadastrados pelo usuário logado e a opção "Adicionar Medicamento" para quando houver necessidade.
+|**Critérios de Êxito**|Ser direcionado automaticamente para a tela principal após o formulário de login; Na tela principal deve aparecer as seguintes informações/funcionalidades no menu: "Home", "Cliente" e "Sair". Ao clicar em "Cliente", deve aparecer o perfil do cliente com as seguintes funcionalidades: Botão “Tratamentos”; Botão “Caixinha de Remédios”; Botão “Pesquisar preços (Em breve)”; Botão “Visualizar Receitas (Em breve)” e Botão “Importar/Exportar Receita (Em breve)”; Em "Tratamento", é apresentada a lista de tratamentos e a opção "Adicionar Tratamento"; Em "caixinha de Remédios", é apresentada uma lista de medicamentos cadastrados pelo usuário logado e a opção "Adicionar Medicamento" para quando houver necessidade. Na tela de perfil "Funcionário" deverá conter o link para a lista de medicmanetos, após clicar em lista de medicamentos deverá conter uma nova página com a lista de todos os medicmaentos cadastrados.
 |Imagem 1| ![Tela de Perfil Cliente](img/CT03-01.png)|
 |Imagem 2| ![Tela de Perfil Cliente](img/CT03-02.png)|
 |Imagem 3| ![Tela de Perfil Cliente](img/CT03-03.png)|
 |Imagem 4| ![Tela de Perfil Cliente](img/CT03-04.png)|
 |Imagem 5| ![Tela de Perfil Cliente](img/CT03-05.png)|
+|Imagem 5| ![Tela de Funcionário Perfil](https://user-images.githubusercontent.com/64924032/146070274-39de9592-1613-42bc-aa09-5586b5324921.png)|
+|Imagem 5| ![Tela de Funcionários - Tela de medicamentos](https://user-images.githubusercontent.com/64924032/146070636-bc24d5db-5158-44e3-afe4-fbf5dbcf3874.png)|
+
 
 
 
