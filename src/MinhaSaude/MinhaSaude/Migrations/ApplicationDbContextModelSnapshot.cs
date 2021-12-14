@@ -361,6 +361,26 @@ namespace MinhaSaude.Migrations
                     b.ToTable("Pacientes");
                 });
 
+            modelBuilder.Entity("MinhaSaude.Models.Receita", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("NomeArquivo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Receita");
+                });
+
             modelBuilder.Entity("MinhaSaude.Models.Tratamento", b =>
                 {
                     b.Property<int>("Id")
@@ -450,6 +470,17 @@ namespace MinhaSaude.Migrations
                         .IsRequired();
 
                     b.Navigation("Medicamento");
+                });
+
+            modelBuilder.Entity("MinhaSaude.Models.Receita", b =>
+                {
+                    b.HasOne("MinhaSaude.Models.Administrador", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("MinhaSaude.Models.Tratamento", b =>

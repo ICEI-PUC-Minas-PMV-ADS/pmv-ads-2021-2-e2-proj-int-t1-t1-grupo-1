@@ -39,6 +39,14 @@ E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\li
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_7_21121415470496.pdf
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_8_21121415334832.pdf
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_8_21121415442150.pdf
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_8_21121415461734.pdf
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_9_21121415443455.pdf
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_9_21121415510704.pdf
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario__21121320222957.pdf
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario__21121408575839.pdf
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\appsettings.json
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\MinhaSaude.dll
@@ -48,6 +56,7 @@ E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\BCrypt.Net
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Humanizer.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Identity.UI.dll
@@ -63,8 +72,11 @@ E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Design.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.Design.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.FileProviders.Embedded.dll

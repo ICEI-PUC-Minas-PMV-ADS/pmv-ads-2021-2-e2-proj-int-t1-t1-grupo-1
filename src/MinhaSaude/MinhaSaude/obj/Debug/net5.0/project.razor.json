@@ -15619,6 +15619,11 @@
   "RootNamespace": "MinhaSaude",
   "Documents": [
     {
+      "FilePath": "e:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\Views\\Receitas\\Create.cshtml",
+      "TargetPath": "Views\\Receitas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\Views\\Farmacias\\Login.cshtml",
       "TargetPath": "Views\\Farmacias\\Login.cshtml",
       "FileKind": "mvc"
@@ -15631,6 +15636,11 @@
     {
       "FilePath": "e:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\Views\\Receitas\\Delete.cshtml",
+      "TargetPath": "Views\\Receitas\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15759,8 +15769,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\Views\\Receitas\\Index.cshtml",
+      "TargetPath": "Views\\Receitas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\Views\\Medicamentos\\Edit.cshtml",
       "TargetPath": "Views\\Medicamentos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\Views\\Receitas\\Details.cshtml",
+      "TargetPath": "Views\\Receitas\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15831,6 +15851,11 @@
     {
       "FilePath": "e:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\Views\\Tratamentos\\Create.cshtml",
       "TargetPath": "Views\\Tratamentos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\MinhaSaude\\src\\MinhaSaude\\MinhaSaude\\Views\\Receitas\\Edit.cshtml",
+      "TargetPath": "Views\\Receitas\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],

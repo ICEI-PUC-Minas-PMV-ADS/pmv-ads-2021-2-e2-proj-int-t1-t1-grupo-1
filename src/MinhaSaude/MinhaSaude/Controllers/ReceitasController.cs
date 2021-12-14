@@ -18,19 +18,26 @@ namespace MinhaSaude.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _hostEnvironment;
-        //private readonly UserManager<ApplicationUser> _userManager;
+        //private readonly UserManager<IdentityUser> _userManager;
+        //private readonly SignInManager<IdentityUser> SignInManager;
 
-        public ReceitasController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment/*, UserManager<ApplicationUser> userManager*/)
+        public ReceitasController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment/*, UserManager<IdentityUser> userManager*/)
         {
             _context = context;
             _hostEnvironment = hostEnvironment;
             //_userManager = userManager;
+
         }
+        //public ReceitasController(UserManager<IdentityUser> userManager)
+        //{
+        //    _userManager = userManager;
+        //}
 
         // GET: Receitas
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Receita.ToListAsync());
+            var applicationDbContext = _context.Receita.Include(c => c.Usuario);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Receitas/Details/5
@@ -42,6 +49,7 @@ namespace MinhaSaude.Controllers
             }
 
             var receita = await _context.Receita
+                .Include(c => c.Usuario)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (receita == null)
             {
@@ -54,6 +62,7 @@ namespace MinhaSaude.Controllers
         // GET: Receitas/Create
         public IActionResult Create()
         {
+            ViewData["UsuarioId"] = new SelectList(_context.Administradores, "Id", "Email");
             return View();
         }
 
@@ -62,17 +71,16 @@ namespace MinhaSaude.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ReceitaArquivo")] Receita receita)
+        public async Task<IActionResult> Create([Bind("Id,ReceitaArquivo, UsuarioId")] Receita receita)
         {
             if (ModelState.IsValid)
             {
                 //Salvar o arquivo da receita na pasta wwwroot/receitas
                 string wwwrootpath = _hostEnvironment.WebRootPath;
-                string fileName = Path.GetFileNameWithoutExtension(receita.ReceitaArquivo.FileName);
+                string fileName;
                 string fileExtension = Path.GetExtension(receita.ReceitaArquivo.FileName);
-                
-                //object _userManager = null;
-                string usuario = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+                string usuario = Convert.ToString(receita.UsuarioId);
 
                 receita.NomeArquivo = fileName = "Usuario_" + usuario + "_" + DateTime.Now.ToString("yyMMddHHmmssff") + fileExtension;
 
@@ -87,6 +95,7 @@ namespace MinhaSaude.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["UsuarioId"] = new SelectList(_context.Administradores, "Id", "Email");
             return View(receita);
         }
 
@@ -103,6 +112,7 @@ namespace MinhaSaude.Controllers
             {
                 return NotFound();
             }
+            ViewData["UsuarioId"] = new SelectList(_context.Administradores, "Id", "Email");
             return View(receita);
         }
 
@@ -111,7 +121,7 @@ namespace MinhaSaude.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id")] Receita receita)
+        public async Task<IActionResult> Edit(int id, [Bind("Id, ReceitaArquivo")] Receita receita)
         {
             if (id != receita.Id)
             {
@@ -138,6 +148,7 @@ namespace MinhaSaude.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["UsuarioId"] = new SelectList(_context.Administradores, "Id", "Email");
             return View(receita);
         }
 
