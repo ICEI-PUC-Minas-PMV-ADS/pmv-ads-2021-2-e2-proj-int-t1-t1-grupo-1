@@ -84,8 +84,13 @@
 |**Requisitos Associados**|RF-01 - O sistema deve ter um cadastro de medicamentos, incluindo: nome, laboratório, dosagem, tipo (comprimido, gota, ampola, etc); RF-11 – O sistema deve permitir a inserção e a leitura de bulas de medicamentos;
 |**Perfil**|Paciente|
 |**Objetivo do Teste**|Verificar se as opções de cadastro estão sendo exibidas e executadas corretamente.|
-|**Passos**|Acessar o Navegador; Informar o endereço do Site; Realizar o login; Na tela Perfil, clicar no botão “Tratamentos”; Na tela tratamentos, clicar no botão “Novo Tratamento”; Na tela de Cadastro de tratamento, clicar no botão “cadastro de medicamento”; Preencher os campos de ‘Nome do Medicamento’, ‘Laboratório’, ‘Tipo’, ‘Dosagem’, ‘Princípio Ativo’; Inserir a bula (Formato PDF, JPG, PNG ou BMP); Clicar no botão ‘Cadastrar’.|
- |**Critérios de Êxito**|Os campos para preenchimento deverão permitir a entrada de dados; Após clicar em Cadastrar, deve-se retornar automaticamente para a tela Cadastrar Tratamento, com o medicamento cadastrado já selecionado; A bula deve estar disponível para leitura.|
+|**Passos**|Acessar o Navegador;  Na tela Perfil, clicar no botão “Lista de medicamnetos”; Na tela Medicamentos, clicar no botão “Novo Medicamento”; Na tela de Cadastro de medicamento, clicar no botão “cadastro de medicamento”; Preencher os campos de ‘Nome do Medicamento’, ‘Laboratório’, ‘Tipo’, ‘Dosagem’, ‘Princípio Ativo’;  Clicar no botão ‘Cadastrar’.|
+ |**Critérios de Êxito**|Os campos para preenchimento deverão permitir a entrada de dados; Após clicar em Cadastrar, deve-se retornar automaticamente para a tela Cadastrar Tratamento, com o medicamento cadastrado já selecionado; |
+|Imagem 1| ![Perfil e Medicamentos](https://user-images.githubusercontent.com/64924032/146057346-c532da00-e5d6-457b-96d4-e432baf433a2.png)|
+|Imagem 2| ![Botão adicionar medicamentos](https://user-images.githubusercontent.com/64924032/146057510-15969742-d61a-4d18-87e5-e461e0b435a1.png)|
+|Imagem 3| ![Cadastro de novo medicamento](https://user-images.githubusercontent.com/64924032/146057603-b04c0ae6-2d07-4c08-a896-5048b942eb8e.png)|
+|Imagem 4| ![Cadastrando e salvando novo medicamento](https://user-images.githubusercontent.com/64924032/146058198-770f5bb9-6c6e-4413-b717-a4b9676e8253.png)|
+
 
 
 |**Caso de Teste**|**CT-08 – Atualização da “Caixinha de Remédios”**|
@@ -107,7 +112,7 @@
 |**Critérios de Êxito**|Cadastrar data de validade e lote e consultá-lo posteriormente pelo menu de buscas de produtos.|
 
 
-|**Caso de Teste**|**CT-10 – Pesquisa de preços**|
+|**Caso de Teste**|**CT-10 – (DELETAR) Pesquisa de preços**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-09 – O sistema deve ter um sistema de localização de farmácias (pode ser pelo Google Maps), considerando a localização atual do usuário; RF-10 - O sistema deve permitir a comparação de preços de um medicamento selecionado entre diversas farmácias; RF-13 – O sistema deve permitir o registro da qualidade do atendimento das farmácias para futura comparação.|
 |**Perfil**|Paciente|
@@ -117,7 +122,7 @@
 
 
 
-|**Caso de Teste**|**CT-11 - Notificações**|
+|**Caso de Teste**|**CT-11 - (DELETAR) Notificações**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-05 – O sistema deve permitir cadastro de Caixinha de medicamentos, com quantidade alterada quando usuário confirma a ingestão; RF-07 – O sistema deve emitir alerta com notificação nos horários de ingestão cadastrados na posologia; RF-08 – O sistema deve emitir alerta de quantidade baixa de medicamento, considerando a quantidade definida pelo usuário (“quando quantidade for menor que X comprimidos”).|
 |**Perfil**|Paciente|
