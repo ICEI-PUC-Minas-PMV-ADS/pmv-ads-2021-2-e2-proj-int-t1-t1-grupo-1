@@ -17,12 +17,12 @@ namespace MinhaSaude.Models
         public string Nome { get; set; }
 
         [Required(ErrorMessage ="Obrigatório informar o E-mail!")]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar o Nome da Farmácia!")]
-        [Display(Name = "Nome da Farmácia")]
+        [Display(Name = "Nome da Farmácia (Só Funcionários)")]
         public string NomeFarmacia { get; set; }
-
+        
         [Required(ErrorMessage = "Obrigatório informar a senha!")]
         [DataType(DataType.Password)]
         public string Senha { get; set; }
