@@ -20,7 +20,7 @@ namespace MinhaSaude.Models
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
-        [Display(Name = "Nome da Farmácia (Funcionários)/Não se aplica (Cliente)")]
+        [Display(Name = "Nome da Farmácia (Só Funcionários)")]
         public string NomeFarmacia { get; set; }
         
         [Required(ErrorMessage = "Obrigatório informar a senha!")]

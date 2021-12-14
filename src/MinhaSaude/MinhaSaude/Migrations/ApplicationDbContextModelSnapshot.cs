@@ -231,7 +231,6 @@ namespace MinhaSaude.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NomeFarmacia")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Perfil")
