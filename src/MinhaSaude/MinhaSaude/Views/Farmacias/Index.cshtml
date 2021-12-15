@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<MinhaSaude.Models.Farmacia>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Bem-vindo(a)!";
 }
 
 <body>
@@ -9,8 +9,8 @@
     <section>
         <div class="overflow-scroll p-2">
             <a class="btn btn-light btn-block p-4" asp-controller="Medicamentos" asp-action="Index" role="button"><strong>Lista de Medicamentos</strong></a>
-            <a class="btn btn-light btn-block p-4 em-breve" href="#" role="button"><i>Visualizar Receita (Em Breve)</i></a>
-            <a class="btn btn-light btn-block p-4 em-breve" href="#" role="button"><i>Importar Receita (Em Breve)</i></a>
+            <a class="btn btn-light btn-block p-4" asp-area="" asp-controller="Receitas" asp-action="Index"><strong>Visualizar Receita</strong></a>
+            <a class="btn btn-light btn-block p-4" asp-area="" asp-controller="Receitas" asp-action="Create"><strong>Importar Receita</strong></a>
         </div>
     </section>
 </body>

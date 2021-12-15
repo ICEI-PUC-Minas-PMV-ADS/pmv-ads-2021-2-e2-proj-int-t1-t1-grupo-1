@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<MinhaSaude.Models.CaixinhaDeRemedios>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Caixinha de Remédios";
 }
 
 <h4>Caixinha de Remedios</h4>
@@ -33,7 +33,7 @@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Remover</a>
+                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
             </td>
         </tr>
 }

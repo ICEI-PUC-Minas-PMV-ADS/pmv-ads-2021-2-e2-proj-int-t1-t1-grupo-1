@@ -18,27 +18,43 @@ namespace MinhaSaude.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _hostEnvironment;
-        //private readonly UserManager<IdentityUser> _userManager;
-        //private readonly SignInManager<IdentityUser> SignInManager;
 
-        public ReceitasController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment/*, UserManager<IdentityUser> userManager*/)
+        public ReceitasController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
             _hostEnvironment = hostEnvironment;
-            //_userManager = userManager;
-
         }
-        //public ReceitasController(UserManager<IdentityUser> userManager)
-        //{
-        //    _userManager = userManager;
-        //}
 
         // GET: Receitas
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var applicationDbContext = _context.Receita.Include(c => c.Usuario);
-            return View(await applicationDbContext.ToListAsync());
+            //Fetch all files in the Folder (Directory).
+            string[] filePaths = Directory.GetFiles(Path.Combine(this._hostEnvironment.WebRootPath, "receitas/"));
+
+            //Copy File names to Model collection.
+            List<FileModel> files = new List<FileModel>();
+            foreach (string filePath in filePaths)
+            {
+                files.Add(new FileModel { FileName = Path.GetFileName(filePath) });
+            }
+
+            return View(files);
+
+            //var applicationDbContext = _context.Receita.Include(c => c.Usuario);
+            //return View(await applicationDbContext.ToListAsync());
         }
+        public FileResult DownloadFile(string fileName)
+        {
+            //Build the File Path.
+            string path = Path.Combine(this._hostEnvironment.WebRootPath, "receitas/") + fileName;
+
+            //Read the File data into Byte Array.
+            byte[] bytes = System.IO.File.ReadAllBytes(path);
+
+            //Send the File to Download.
+            return File(bytes, "application/octet-stream", fileName);
+        }
+
 
         // GET: Receitas/Details/5
         public async Task<IActionResult> Details(int? id)
