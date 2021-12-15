@@ -3,8 +3,16 @@
 * Site publicado na Internet;
 * Navegador da Internet - Chrome, Firefox ou Edge.
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
+
+|**Caso de Teste**|**CT-01 – Cadastro de novo usuário**|
+|-----------------|---------------------------------|
+|**Requisitos Associados**|RF-04 - O sistema deve apresentar 1 formulário de cadastro para novo usuário com 3 perfis (um para cliente, outro para administrador e outro para o funcionário da farmácia) contendo: Nome, e-mail, nome da farmácia (se funcionário), senha.|
+|**Objetivo do Teste**|Verificar se os campos do formulário de cadastrar novo usuário está validando os campos corretamente conforme seu respectivo dado.|
+|**Passos**|Acessar a primeira tela do site pelo browser, conforme CT-01; Clicar na opção “Cadastro”; Preencher os campos necessários do formulário; Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar”.|
+|**Critérios de Êxito**|Na tela de cadastro, ofuncionário da farmácia deve preencher todos os campos (Nome, Email, Nome da Farmácia, Senha), já o cliente e o admin devem preencher somente os campos "Nome", "Email" e "Senha", conforme indicado; apenas uma opção de perfil deve ser selecionada (“Cliente”/”Admin”/"Funcionário") para que tenha um direcionamento correto após o login de cada usuário; também deve ser verificado se o e-mail digitado é válido; Ainda nesta tela, o campo de senha deve manter a informação digitada oculta; Ao clicar em Salvar, o usuário deve ser direcionado para a página de Login.|
+
   
-|**Caso de Teste**|**CT-01 – Validar tela de login**|
+|**Caso de Teste**|**CT-02 – Validar tela de login**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-14 - O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar novo usuário.|
 |**Objetivo do Teste**|Verificar se os campos do formulário estão sendo exibidos corretamente.|
@@ -12,15 +20,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |**Critérios de Êxito**|O campo email deve verificar se o usuário digitou uma informação válida; O texto preenchido no campo de senha deve ser oculto; Ao clicar em ‘login’ será direcionado para home.|
 
 
-|**Caso de Teste**|**CT-02 – Cadastro de novo usuário**|
-|-----------------|---------------------------------|
-|**Requisitos Associados**|RF-04 - O sistema deve apresentar 1 formulário de cadastro para novo usuário com 3 perfis (um para cliente, outro para administrador e outro para o funcionário da farmácia) contendo: Nome, e-mail, nome da farmácia (se funcionário), senha.|
-|**Objetivo do Teste**|Verificar se os campos do formulário de cadastrar novo usuário está validando os campos corretamente conforme seu respectivo dado.|
-|**Passos**|Acessar a primeira tela do site pelo browser, conforme CT-01; Clicar na opção “Cadastro”; Preencher os campos necessários do formulário; Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar”.|
-|**Critérios de Êxito**|Na tela de cadastro, ofuncionário da farmácia deve preencher todos os campos (Nome, Email, Nome da Farmácia, Senha), já o cliente e o admin devem preencher somente os campos "Nome", "Email" e "Senha", conforme indicado; apenas uma opção de perfil deve ser selecionada (“Cliente”/”Admin”/"Funcionário") para que tenha um direcionamento correto após o login de cada usuário; também deve ser verificado se o e-mail digitado é válido; Ainda nesta tela, o campo de senha deve manter a informação digitada oculta; Ao clicar em Salvar, o usuário deve ser direcionado para a página de Login.|
-
-
-|**Caso de Teste**|**CT-03 – Tela Perfil**|
+|**Caso de Teste**|**CT-03 – Tela Funcionalidades**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-12 – O sistema deve permitir enviar prescrição eletrônica; RF-16 - O site deve conter área logada com acesso ao perfil de cada usuário cadastrado, que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Menor preço de medicamentos (em breve), Cadastrar medicamento, Visualizar receita, Cadastrar tratamento (Considerando o tipo de cada perfil).|
 |**Perfil**|Cliente|
@@ -30,7 +30,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 
 
-|**Caso de Teste**|**CT-04 – Tela Perfil**|
+|**Caso de Teste**|**CT-04 – Tela Funcionalidades**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-12 – O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar); RF-16 - O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento (Considerando o tipo de cada perfil).|
 |**Perfil**|Funcionário da Farmácia (Atendente/Farmacêutico)|
