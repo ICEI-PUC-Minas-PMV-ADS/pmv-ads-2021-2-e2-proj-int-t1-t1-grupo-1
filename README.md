@@ -10,7 +10,7 @@ A gestão de medicamentos parece algo trivial, pois demanda organização pessoa
 
 ## Integrantes
 
-* ADILSON ANTONIO FERREIRA JR
+* ADILSON ANTONIO FERREIRA JUNIOR
 * JOÃO PEDRO MARQUES MOURÃO
 * MATEUS VITORINO GUIMARAES
 * RODRIGO LOBENWEIN RESENDE
