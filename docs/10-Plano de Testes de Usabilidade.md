@@ -20,78 +20,57 @@ Em caso de respostas negativas, o avaliador deve propor uma solução, da seguin
 
 <table>
  <tr><th>Caso de Teste</th>
- <th>CTU-01 – Login de usuário</th></tr>
+ <th>CTU-01 – Cadastro de novo usuário</th></tr>
  <tr><th>Perfil</th>
- <th>Paciente</th></tr>
- <tr><th>Objetivo do Teste</th>
- <th>Avaliar a usabilidade da tela de Login</th></tr>
- <tr><th>Ações necessárias</th>
- <th>Acessar o Navegador;
- Informar o endereço do Site;
- Visualizar a página de login;
- Preencher CPF/ CRF no campo indicado
- Preencher senha no campo indicado;
- Selecionar tipo de usuário (“paciente”/“funcionário da farmácia”)
- Clicar em ‘Login’.</th></tr>
-</table>
-
-<table>
- <tr><th>Caso de Teste</th>
- <th>CTU-02 – Cadastro de novo usuário</th></tr>
- <tr><th>Perfil</th>
- <th>Paciente</th></tr>
+ <th>Cliente</th></tr>
  <tr><th>Objetivo do Teste</th>
  <th>Avaliar a tela de cadastro de novo usuário</th></tr>
  <tr><th>Ações necessárias</th>
  <th>Acessar a primeira tela do site pelo browser, conforme CTU-01;
  Clicar na opção “Cadastro”;
  Preencher os campos necessários do formulário;
- Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Finalizar Cadastro.</th></tr>
+ Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar.</th></tr>
 </table>
 
 <table>
  <tr><th>Caso de Teste</th>
-<th>CTU-03 – Cadastro de Nova Senha</th></tr>
-<tr><th>Perfil</th>
- <th>Paciente</th></tr>
+ <th>CTU-02 – Login de usuário</th></tr>
+ <tr><th>Perfil</th>
+ <th>Cliente</th></tr>
  <tr><th>Objetivo do Teste</th>
- <th>Avaliar a tela de cadastro de nova senha</th></tr>
- <tr><th>Passos</th>
-  <th><br>Acessar o Navegador;</br>
-Informar o endereço do Site;
-Visualizar a página de login;
-Clicar na opção “Esqueci minha senha”
-Na tela “Recuperação de acesso”, inserir o e-mail cadastrado;
-Clicar no botão “próximo”
-Na tela de “Código”, preencher no espaço indicado com o código recebido no e-mail de reset da senha;
-Clicar em “Próximo”;
-Inserir nova senha nos campos “senha” e “confirmação de senha”.
-Clicar no botão ‘Concluir’ que levará para a próxima tela; </th></tr>
+ <th>Avaliar a usabilidade da tela de Login</th></tr>
+ <tr><th>Ações necessárias</th>
+ <th>Acessar o Navegador;
+ Informar o endereço do Site;
+ Visualizar a página de login;
+ Preencher email no campo indicado
+ Preencher senha no campo indicado;
+ Clicar em ‘Login’.</th></tr>
 </table>
 
 <table>
  <tr><th>Caso de Teste</th>
-<th>CTU-04 – Tela Perfil</th></tr>
+<th>CTU-03 – Tela Funcionalidades</th></tr>
 <tr><th>Perfil</th>
-<th>Paciente</th></tr>
+<th>Cliente</th></tr>
 <tr><th>Objetivo do Teste</th>
-<th>Avaliar a tela de perfil do paciente</th></tr>
+<th>Avaliar a tela de funcionalidades do cliente</th></tr>
  <tr><th>Passos</th>
 <th>Acessar o Navegador
 Informar o endereço do Site
 Visualizar a página principal
 Clicar em Login
-Preencher o CPF e a senha
+Preencher o email e a senha
 Verificar a página principal do perfil</th></tr>
 </table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-05 – Tela Perfil</th></tr>
+<th>CTU-04 – Tela Funcionalidades</th></tr>
 <tr><th>Perfil</th>
-<th>Atendente</th></tr>
+<th>Funcionário (Farmacêutico/Atendente)</th></tr>
 <tr><th>Objetivo do Teste</th>
-<th>Avaliar a tela de perfil do atendente</th></tr>
+<th>Avaliar a tela de funcionalidades do funcionário</th></tr>
 <tr><th>Passos</th>
 <th>Acessar o Navegador
 Informar o endereço do Site
@@ -101,70 +80,49 @@ Preencher o CPF e a senha
 Verificar a página principal do perfil</th></tr>
  </table>
 
-
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-06 – Tela Perfil</th></tr>
+<th>CTU-05 – Cadastro Tratamento</th></tr>
 <tr><th>Perfil</th>
-<th>Farmacêutico</th></tr>
-<tr><th>Objetivo do Teste</th>
-<th>Avaliar a tela de perfil do farmacêutico</th></tr>
-<tr><th>Passos</th>
-<th>Acessar o Navegador
-Informar o endereço do Site
-Visualizar a página principal
-Clicar em Login
-Preencher o CRF e a senha
-Verificar a página principal do perfil</th></tr>
- </table>
-
-
-<table>
-<tr><th>Caso de Teste</th>
-<th>CTU-07 – Cadastro Tratamento</th></tr>
-<tr><th>Perfil</th>
-<th>Paciente</th></tr>
+<th>Cliente</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar o cadastro de tratamento</th></tr>
 <tr><th>Passos</th>
 <th>Acessar o Navegador;
 Informar o endereço do Site;
 Realizar o login;
-Na tela Perfil, clicar no botão “Tratamentos”;
+Na tela Funcionalidades do Cliente, clicar no botão “Tratamentos”;
 Na tela tratamentos, clicar no botão “Novo Tratamento”
 Na opção Medicamento, quando o usuário começar a digitar, o espaço deve ser preenchido (a partir da primeira letra), caso o medicamento já esteja no banco de dados
 Selecionar o ‘Nome do Medicamento’
 Preencher os campos ‘Data Início’, ‘Duração’, ‘Frequência de Uso’ e ‘Anotações’;
-Inserir a bula (Formato PDF, JPG, PNG ou BMP)
- Campo ‘Anotações’ não precisará ser obrigatório; e
- Clicar no botão ‘Enviar’ para salvar o cadastro.</th></tr>
- </table>
+Campo ‘Anotações’ não precisará ser obrigatório; e
+Clicar no botão ‘Enviar’ para salvar o cadastro.</th></tr>
+</table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-08 – Cadastro Medicamento</th></tr>
+<th>CTU-06 – Cadastro Medicamento</th></tr>
 <tr><th>Perfil</th>
-<th>Paciente</th></tr>
+<th>Cliente</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar o cadastro de Medicamentos</th></tr>
 <tr><th>Passos</th>
 <th>Acessar o Navegador;
 Informar o endereço do Site;
 Realizar o login;
-Na tela Perfil, clicar no botão “Tratamentos”;
+Na tela Funcionalidades do Cliente, clicar no botão “Tratamentos”;
 Na tela tratamentos, clicar no botão “Novo Tratamento”
 Na tela de Cadastro de tratamento, clicar no botão “cadastro de medicamento”.
 Preencher os campos de ‘Nome do Medicamento’, ‘Laboratório’, ‘Tipo’, ‘Dosagem’, ‘Princípio Ativo’;
-Inserir a bula (Formato PDF, JPG, PNG ou BMP)
 Clicar no botão ‘Cadastrar’.</th></tr>
  </table>
 
-
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-09 - Atualização da “Caixinha de Remédios”</th></tr>
+<th>CTU-07 - Atualização da “Caixinha de Remédios”</th></tr>
 <tr><th>Perfil</th>
-<th>Paciente</th></tr>
+<th>Cliente</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a usabilidade da Caixinha de remédios</th></tr>
 <tr><th>Passos</th>
@@ -177,12 +135,11 @@ Nos campos QUANTIDADE, DATA DE VALIDADE E LOTE DO MEDICAMENTO inserir dados vál
 Clicar em salvar</th></tr>
  </table>
 
-
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-10 – Importar e exportar prescrição</th></tr>
+<th>CTU-08 – Importar e exportar prescrição</th></tr>
 <tr><th>Perfil</th>
-<th>Paciente</th></tr>
+<th>Cliente</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar o cadastro, envio e recebimento de prescrição</th></tr>
 <tr><th> Passos</th>
@@ -193,52 +150,3 @@ Clicar no botão “Importar/Exportar arquivo”
 Selecionar o arquivo da prescrição
 Clicar em ENVIAR</th></tr>
  </table>
-
-
-<table>
-<tr><th>Caso de Teste</th>
-<th>CTU-11–Pesquisa de preços</th></tr>
-<tr><th>Perfil</th>
-<th>Paciente</th></tr>
-<tr><th>Objetivo do Teste</th>
-<th>Avaliar as opções da pesquisa de preços</th></tr>
-<tr><th>Passos</th>
-<th>1)   Acessar o Navegador;
-2)   Informar o endereço do Site;
-3)   Acessar a página ‘Pesquisa de preço’;
-4)   Visualizar o campo de preenchimento relativo ao nome do medicamento.
-5)   Campo ‘Busca de medicamento’ deve estar acessível para preenchimento;
-6)   Clicar na lupa para efetuar a busca;
-7)   Ao buscar o medicamento, o aplicativo deve possuir um sistema de localização que permita mostrar as farmácias mais próximas da residência do usuário
-8) Em seguida deve apresentar várias farmácias onde o medicamento encontra-se disponível e cada uma com o preço praticado;
-9) O ícone da farmácia deve ser um link de redirecionamento para a mesma, possibilitando ao paciente comprar o medicamento on-line, e, caso deseje, fornecer o endereço físico para compra presencial.
-10) O sistema deve apresentar uma opção de avaliação do atendimento após a compra realizada com notas de 0 (para muito ruim) a 5 (para muito bom).</th></tr>
-
- </table>
-
-
-<table>
-<tr><th>Caso de Teste</th>
-<th>CTU-12 - Notificações</th></tr>
-<tr><th>Perfil</th>
-<th>Paciente</th></tr>
-<tr><th>Objetivo do Teste</th>
-<th>Avaliar o sistema de alarmes da aplicação </th></tr>
-<tr><th>Passos</th>
-<th>1) Acessar o navegador
-2) Informar o endereço do Site;
-3) Realizar o login;
-4) Acessar a seção Notificações
-5) Selecionar a opção “Notificação de ingestão”
-6) Deve apresentar uma tela para marcar horário de ingestão de cada medicamento (tendo a opção de adicionar quantos medicamentos forem necessários) e clicar em “Repetir todos os dias”
-7) Clicar em salvar
-8) Depois que soar o alarme, deve apresentar uma opção de confirmação de ingestão
-9) Selecionar a opção “Notificação de Caixinha”
-10) Deve apresentar uma tela para marcar a quantidade mínima de cada medicamento (tendo a opção de adicionar quantos medicamentos forem necessários) para soar o alarme
-11) Clicar em salvar
-12) Selecionar a opção “Notificação de afastamento de casa”
-13) Deve apresentar uma tela para ativar localização e distância que o alarme deve disparar
-14) Clicar em salvar</th></tr>
- </table>
-
-
