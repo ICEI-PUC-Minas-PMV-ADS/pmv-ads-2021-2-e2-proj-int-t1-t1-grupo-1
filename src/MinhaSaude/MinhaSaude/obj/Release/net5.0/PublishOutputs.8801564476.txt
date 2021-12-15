@@ -39,6 +39,7 @@ E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\li
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_20_21121517371455.pdf
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_3_21121418430939.pdf
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_4_21121418424941.pdf
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_7_21121415470496.pdf
