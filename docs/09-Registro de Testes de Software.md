@@ -1,19 +1,6 @@
 # Registro de Testes de Software
 
-**Caso de Teste**|**CT-01 – Validar tela de login**|
-|-----------------|---------------------------------|
-|**Requisitos Associados**|RF-14 - O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar novo usuário.|
-|**Objetivo do Teste**|Verificar se os campos do formulário estão sendo exibidos corretamente.|
-|**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página de login; Preencher e-mail no campo indicado; Preencher senha no campo indicado; Clicar em ‘Login’.|
-|**Critérios de Êxito**|O campo email deve verificar se o usuário digitou uma informação válida; O texto preenchido no campo de senha deve ser oculto; Ao clicar em ‘login’ será direcionado para home.|
-|**Resultado**|A Aplicação se comportou conforme esperado.|
-|Imagem 1| ![Tela de login](img/CT01-01.jpg)|
-|Imagem 2| ![Tela de login](img/CT01-02.jpg)|
-|Imagem 3| ![Tela de login](img/CT01-03.jpg)|
-|Imagem 4| ![Tela de login](img/CT01-04.jpg)|
-
-
-|**Caso de Teste**|**CT-02 – Cadastro de novo usuário**|
+|**Caso de Teste**|**CT-01 – Cadastro de novo usuário**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-04 - O sistema deve apresentar 1 formulário de cadastro para novo usuário com 3 perfis (um para cliente, outro para administrador e outro para o funcionário da farmácia) contendo: Nome, e-mail, nome da farmácia (se funcionário), senha.|
 |**Objetivo do Teste**|Verificar se os campos do formulário de cadastrar novo usuário está validando os campos corretamente conforme seu respectivo dado.|
@@ -28,7 +15,21 @@
 
 
 
-|**Caso de Teste**|**CT-03 – Tela Perfil**|
+**Caso de Teste**|**CT-02 – Validar tela de login**|
+|-----------------|---------------------------------|
+|**Requisitos Associados**|RF-14 - O sistema deve apresentar na página principal uma área de login e a opção para se cadastrar novo usuário.|
+|**Objetivo do Teste**|Verificar se os campos do formulário estão sendo exibidos corretamente.|
+|**Passos**|Acessar o Navegador; Informar o endereço do Site; Visualizar a página de login; Preencher e-mail no campo indicado; Preencher senha no campo indicado; Clicar em ‘Login’.|
+|**Critérios de Êxito**|O campo email deve verificar se o usuário digitou uma informação válida; O texto preenchido no campo de senha deve ser oculto; Ao clicar em ‘login’ será direcionado para home.|
+|**Resultado**|A Aplicação se comportou conforme esperado.|
+|Imagem 1| ![Tela de login](img/CT01-01.jpg)|
+|Imagem 2| ![Tela de login](img/CT01-02.jpg)|
+|Imagem 3| ![Tela de login](img/CT01-03.jpg)|
+|Imagem 4| ![Tela de login](img/CT01-04.jpg)|
+
+
+
+|**Caso de Teste**|**CT-03 – Tela Funcionalidades*|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-12 – O sistema deve permitir enviar prescrição eletrônica; RF-16 - O site deve conter área logada com acesso ao perfil de cada usuário cadastrado, que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Menor preço de medicamentos (em breve), Cadastrar medicamento, Visualizar receita, Cadastrar tratamento (Considerando o tipo de cada perfil).|
 |**Perfil**|Cliente|
@@ -43,9 +44,7 @@
 
 
 
-
-
-|**Caso de Teste**|**CT-04 – Tela Perfil**|
+|**Caso de Teste**|**CT-04 – Tela Funcionalidades**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-12 – O sistema deve permitir receber e encaminhar prescrição eletrônica (Importar e exportar); RF-16 - O site deve conter área logada (Perfil) que conforme o logon de cada perfil (paciente / Funcionário da farmácia) que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Menor preço de medicamentos, Cadastrar medicamento, Visualizar receita, Cadastrar tratamento (Considerando o tipo de cada perfil).|
 |**Perfil**|Funcionário da Farmácia (Atendente/Farmacêutico)|
@@ -55,7 +54,6 @@
 |Imagem 1| ![Fazendo login como funcionário](https://user-images.githubusercontent.com/64924032/146071092-e7aa99cd-e1b2-4ce8-b753-ed675692fd35.png)|
 |Imagem 1| ![Tela de Funcionário Perfil](https://user-images.githubusercontent.com/64924032/146070274-39de9592-1613-42bc-aa09-5586b5324921.png)|
 |Imagem 2| ![Tela de Funcionários - Tela de medicamentos](https://user-images.githubusercontent.com/64924032/146070636-bc24d5db-5158-44e3-afe4-fbf5dbcf3874.png)|
-
 
 
 
@@ -71,8 +69,6 @@
 |Imagem 3| ![Tela de Perfil Cliente](https://user-images.githubusercontent.com/64924032/146054004-9052816b-ba4f-48cd-8b99-911df35d2c6f.png)|
 |Imagem 4| ![Tela de Perfil Cliente](https://user-images.githubusercontent.com/64924032/146054161-125cc9bd-e964-4fe4-be23-20de4ed4a100.png)|
 |Imagem 5| ![Tela de Perfil Cliente](https://user-images.githubusercontent.com/64924032/146054388-397127b8-40d9-44cd-89d6-f5557846d028.png)|
-
-
 
 
 
