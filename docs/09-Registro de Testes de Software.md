@@ -29,7 +29,7 @@
 
 
 
-|**Caso de Teste**|**CT-03 – Tela Funcionalidades*|
+|**Caso de Teste**|**CT-03 – Tela Funcionalidades**|
 |-----------------|---------------------------------|
 |**Requisitos Associados**|RF-12 – O sistema deve permitir enviar prescrição eletrônica; RF-16 - O site deve conter área logada com acesso ao perfil de cada usuário cadastrado, que deverá mostrar o conteúdo apropriado; RF-17 - A tela Perfil deve contemplar informações importantes para ambos os tipos de usuários como: Tratamentos, Medicamentos, Menor preço de medicamentos (em breve), Cadastrar medicamento, Visualizar receita, Cadastrar tratamento (Considerando o tipo de cada perfil).|
 |**Perfil**|Cliente|
