@@ -39,6 +39,8 @@ E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\li
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_3_21121418430939.pdf
+E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_4_21121418424941.pdf
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_7_21121415470496.pdf
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_8_21121415334832.pdf
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\wwwroot\receitas\Usuario_8_21121415442150.pdf
@@ -72,7 +74,6 @@ E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Design.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.Design.dll
 E:\MinhaSaude\src\MinhaSaude\MinhaSaude\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll

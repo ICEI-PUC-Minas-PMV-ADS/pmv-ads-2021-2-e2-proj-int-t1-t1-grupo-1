@@ -16,10 +16,10 @@ namespace MinhaSaude.Data
         public DbSet<CaixinhaDeRemedios> CaixinhaDeRemedioss { get; set; }
         public DbSet<Medicamento> Medicamentos { get; set; }
         public DbSet<Tratamento> Tratamentos { get; set; }
-        public DbSet<Paciente> Pacientes { get; set; }
-        public DbSet<Farmacia> Farmacias { get; set; }
         public DbSet<Administrador> Administradores { get; set; }
         public DbSet<Receita> Receita { get; set; }
+        public DbSet<Farmacia> Farmacia { get; set; }
+        public DbSet<Paciente> Pacientes { get; set; }
 
     }
 }

@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -22,73 +19,10 @@ namespace MinhaSaude.Controllers
             _context = context;
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        [AllowAnonymous]
-        public async Task<IActionResult> Login([Bind("Email,Senha")] Farmacia farmacia)
-        {
-            var farm = await _context.Farmacias
-                .FirstOrDefaultAsync(m => m.Email == farmacia.Email);
-
-            if (farm == null)
-            {
-                ViewBag.Message = "Email e/ou Senha inválidos!";
-                return View();
-            }
-
-            bool isSenhaOk = BCrypt.Net.BCrypt.Verify(farmacia.Senha, farm.Senha);
-
-            if (isSenhaOk)
-            {
-                var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.Email, farm.Email)
-                };
-
-                var farmIdentity = new ClaimsIdentity(claims, "login");
-
-                ClaimsPrincipal principal = new ClaimsPrincipal(farmIdentity);
-
-                var props = new AuthenticationProperties
-                {
-                    AllowRefresh = true,
-                    ExpiresUtc = DateTime.Now.ToLocalTime().AddMinutes(5),
-                    IsPersistent = true
-                };
-
-                await HttpContext.SignInAsync(principal, props);
-
-                return Redirect("/");
-            }
-            else
-            {
-                ViewBag.Message = "Funcionário válido!";
-                return View();
-            }
-        }
-
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync();
-
-            return Redirect("/");
-        }
-
-        [AllowAnonymous]
-        public IActionResult AccessDenied()
-        {
-            return View();
-        }
-
-
         // GET: Farmacias
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Farmacias.ToListAsync());
+            return View(await _context.Farmacia.ToListAsync());
         }
 
         // GET: Farmacias/Details/5
@@ -99,7 +33,7 @@ namespace MinhaSaude.Controllers
                 return NotFound();
             }
 
-            var farmacia = await _context.Farmacias
+            var farmacia = await _context.Farmacia
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (farmacia == null)
             {
@@ -124,7 +58,6 @@ namespace MinhaSaude.Controllers
         {
             if (ModelState.IsValid)
             {
-                farmacia.Senha = BCrypt.Net.BCrypt.HashPassword(farmacia.Senha);
                 _context.Add(farmacia);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -140,7 +73,7 @@ namespace MinhaSaude.Controllers
                 return NotFound();
             }
 
-            var farmacia = await _context.Farmacias.FindAsync(id);
+            var farmacia = await _context.Farmacia.FindAsync(id);
             if (farmacia == null)
             {
                 return NotFound();
@@ -164,7 +97,6 @@ namespace MinhaSaude.Controllers
             {
                 try
                 {
-                    farmacia.Senha = BCrypt.Net.BCrypt.HashPassword(farmacia.Senha);
                     _context.Update(farmacia);
                     await _context.SaveChangesAsync();
                 }
@@ -192,7 +124,7 @@ namespace MinhaSaude.Controllers
                 return NotFound();
             }
 
-            var farmacia = await _context.Farmacias
+            var farmacia = await _context.Farmacia
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (farmacia == null)
             {
@@ -207,15 +139,15 @@ namespace MinhaSaude.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var farmacia = await _context.Farmacias.FindAsync(id);
-            _context.Farmacias.Remove(farmacia);
+            var farmacia = await _context.Farmacia.FindAsync(id);
+            _context.Farmacia.Remove(farmacia);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool FarmaciaExists(int id)
         {
-            return _context.Farmacias.Any(e => e.Id == id);
+            return _context.Farmacia.Any(e => e.Id == id);
         }
     }
 }
