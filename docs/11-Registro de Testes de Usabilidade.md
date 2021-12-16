@@ -20,7 +20,7 @@
 |**Critérios de Êxito**|Validar que a tela está padronizada e com identidade visual; Realizar o cadastro.|
 |**esultados obtidos**|Requisito atendido - Foi possível acessar o link com sucesso e realizar o cadastro de maneira fácil.|
 
-|**CTU-3**|Login de usuário|
+|**CTU-3**|Login de Usuário|
 |------|---------|
 |**Perfil**|Cliente|
 |**Objetivo do Teste**|Avaliar a usabilidade da tela de Login.|
@@ -60,7 +60,7 @@
 |**Critérios de Êxito**|Validar que a tela está padronizada e com identidade visual; Realizar os passos para acessar Caixinha de Remédios; Visualizar os dados cadastrados.
 |**Resultados obtidos**|Requisito atendido - Foi possível realizar e visualizar as informações na tela.|
 
-|**CTU-8**|Importar e exportar prescrição|
+|**CTU-8**|Importar e Exportar Prescrição|
 |------|---------|
 |**Perfil**|Cliente|
 |**Objetivo do Teste**|Avaliar o cadastro, envio e recebimento de prescrição.|
